@@ -1,13 +1,41 @@
-						<div id="frmNewsletterSignupWrapper">
-							<form id="frmNewsletterSignup" name="frmNewsletterSignup">
-							    <input type="hidden" name="campaign" id="campaign" value="newsletter" />
-								<input type="hidden" name="language" id="language" value="en" />
-								<div class="form-group">
-									<input type="text" id="email" name="email" placeholder="{translate.contact.email}" class="form-control">
-								</div>
-								<div class="form-group">
-									<input type="text" name="lmXtra" id="lmXtra" value="" class="sr-only" />
-									<input type='submit' id="singlebutton" name="singlebutton" class="btn btn-custom btn-block" value='Sign Up' />
-								</div>
-							</form>
-						</div>
+<style>
+	#agree {
+		width: 7%;
+		display: inline-block;
+		float: left;
+		line-height: 30px;
+	}
+
+	#agree-label {
+		display: inline-block;
+		float: left;
+		margin-left: 10px;
+		font-size: 0.8em;
+		width: 80%;
+	}
+	#agree-error {
+		clear: both;
+		color: red;
+		font-size: 0.8em;
+	}
+</style>
+
+
+<div id="frmNewsletterSignupWrapper">
+	<form id="frmNewsletterSignup" name="frmNewsletterSignup">
+		<input type="hidden" name="campaign" id="campaign" value="newsletter" />
+		<input type="hidden" name="language" id="language" value="en" />
+		<div class="form-group" style="margin-bottom: 0">
+			<input type="text" id="email" name="email" placeholder="{translate.contact.email}" class="form-control">
+		</div>
+		<div class="form-group" style="margin-bottom: 0">
+			<input type="checkbox" name="agree" id="agree" class="form-control">
+			<label for="agree" id="agree-label">I agree to the terms of service and the privacy policy.</label>
+			<div class="clear"></div>
+		</div>
+		<div class="form-group">
+			<input type="text" name="lmXtra" id="lmXtra" value="" class="sr-only" />
+			<input type='submit' id="singlebutton" name="singlebutton" class="btn btn-custom btn-block" value='Sign Up' />
+		</div>
+	</form>
+</div>

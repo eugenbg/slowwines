@@ -256,14 +256,22 @@ $( document ).ready
 							{
 								rules: 
 								{
-									email: { required:true, email:true }
-									
+									email: { required:true, email:true },
+									agree: { required:true }
 								},
 								messages: 
 								{
-									email: ''
+									email: '',
+									agree: 'You have to agree to the terms'
 								},
-								errorElement: "div"
+								errorElement: "div",
+                errorPlacement: function(error, element) {
+                  if (element.attr("id") === "agree") {
+                    error.insertAfter("#agree-label");
+                  } else {
+                    error.insertAfter(element);
+                  }
+                }
 							}
 						);
 						
