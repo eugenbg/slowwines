@@ -143,6 +143,8 @@ class q23base
 		{
 			foreach( $this->member as $sKey=>$sValue )
 			{
+			    if(in_array($sKey, ['_gid', '_ga', '_gat'])) continue;
+
 				if( is_array( $sValue ) )
 				{
 					$sValue	= implode( ",", $sValue );
@@ -161,7 +163,9 @@ class q23base
 			
 			foreach( $this->member as $sKey=>$sValue )
 			{
-				$aField[]   = $sKey;
+                if(in_array($sKey, ['_gid', '_ga', '_gat'])) continue;
+
+                $aField[]   = $sKey;
 				$aValue[]   = $this->oDB->escape( trim( $sValue ) );
 			}
 			

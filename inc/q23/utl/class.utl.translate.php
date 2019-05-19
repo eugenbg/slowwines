@@ -106,7 +106,9 @@ class q23translate extends q23base
 			{
 				foreach( $this->member as $sLng=>$vValue )
 				{
-					$sTranslation	= ( strlen( $aRow[ $sLng ] ) > 0 )	? $aRow[ $sLng ]	: $sLng . "-" . $aRow[ "code" ];
+                    if(in_array($sLng, ['_gid', '_ga', '_gat'])) continue;
+
+                    $sTranslation	= ( strlen( $aRow[ $sLng ] ) > 0 )	? $aRow[ $sLng ]	: $sLng . "-" . $aRow[ "code" ];
 					
 					$this->member[ $sLng ]	.= "\$aTranslation[ '" . $aRow[ "code" ] . "' ] = '" . $sTranslation . "';" . PHP_EOL;
 				}
@@ -114,7 +116,9 @@ class q23translate extends q23base
 
 			foreach( $this->member as $sLng=>$vValue )
 			{
-				$sFile	= $this->_aConfiguration[ 'folder' ][ 'lng' ] . $sLng . '.php';
+                if(in_array($sLng, ['_gid', '_ga', '_gat'])) continue;
+
+                $sFile	= $this->_aConfiguration[ 'folder' ][ 'lng' ] . $sLng . '.php';
 				q23helper::writeFile( $sFile, "<?php" . PHP_EOL . $vValue . "?>" );
 				q23helper::writeLog( LOG_FILE_CRON, "	Translation Updated: " . $sLng, LOG_WRITER_INFORMATION );
 			}
