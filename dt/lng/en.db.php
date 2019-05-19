@@ -1,0 +1,60 @@
+<?php
+$aTranslation[ "apartment" ]						= "Apartment";
+$aTranslation[ "apartment.ground.floor.apartment" ]	= "Ground Floor Apartment";
+$aTranslation[ "apartment.ground.floor.studio" ]	= "Ground Floor Studio";
+$aTranslation[ "apartment.middle.floor.apartment" ]	= "Middle Floor Apartment";
+$aTranslation[ "apartment.middle.floor.studio" ]	= "Middle Floor Studio";
+$aTranslation[ "apartment.penthouse" ]				= "Penthouse";
+$aTranslation[ "apartment.top.floor.apartment" ]	= "Top Floor Apartment";
+$aTranslation[ "apartment.top.floor.studio" ]		= "Top Floor Studio";
+
+$aTranslation[ "commercial" ]						= "Commercial";
+$aTranslation[ "commercial.aparthotel" ]			= "Aparthotel";
+$aTranslation[ "commercial.apartment.complex" ]		= "Apartment Complex";
+$aTranslation[ "commercial.bar" ]					= "Bar";
+$aTranslation[ "commercial.beach.bar" ]				= "Beach Bar";
+$aTranslation[ "commercial.bed.and.breakfast" ]		= "Bed and Breakfast";
+$aTranslation[ "commercial.business" ]				= "Business";
+$aTranslation[ "commercial.café" ]					= "Café";
+$aTranslation[ "commercial.farm" ]					= "Farm";
+$aTranslation[ "commercial.garage" ]				= "Garage";
+$aTranslation[ "commercial.guest.house" ]			= "Guest House";
+$aTranslation[ "commercial.hairdressers" ]			= "Hairdressers";
+$aTranslation[ "commercial.hostel" ]				= "Hostel";
+$aTranslation[ "commercial.hotel" ]					= "Hotel";
+$aTranslation[ "commercial.kiosk" ]					= "Kiosk";
+$aTranslation[ "commercial.laundry" ]				= "Laundry";
+$aTranslation[ "commercial.mechanics" ]				= "Mechanics";
+$aTranslation[ "commercial.mooring" ]				= "Mooring";
+$aTranslation[ "commercial.night.club" ]			= "Night Club";
+$aTranslation[ "commercial.office" ]				= "Office";
+$aTranslation[ "commercial.other" ]					= "Other";
+$aTranslation[ "commercial.parking.space" ]			= "Parking Space";
+$aTranslation[ "commercial.photography.studio" ]	= "Photography Studio";
+$aTranslation[ "commercial.restaurant" ]			= "Restaurant";
+$aTranslation[ "commercial.shop" ]					= "Shop";
+$aTranslation[ "commercial.stables" ]				= "Stables";
+$aTranslation[ "commercial.storage.room" ]			= "Storage Room";
+$aTranslation[ "commercial.warehouse" ]				= "Warehouse";
+
+$aTranslation[ "house" ]							= "House";
+$aTranslation[ "house.bungalow" ]					= "Bungalow";
+$aTranslation[ "house.caravan" ]					= "Caravan";
+$aTranslation[ "house.castle" ]						= "Castle";
+$aTranslation[ "house.cave.house" ]					= "Cave House";
+$aTranslation[ "house.country.house" ]				= "Country House";
+$aTranslation[ "house.detached.house" ]				= "Detached House";
+$aTranslation[ "house.detached.villa" ]				= "Detached Villa";
+$aTranslation[ "house.mobile.home" ]				= "Mobile Home";
+$aTranslation[ "house.semi-detached.house" ]		= "Semi-Detached House";
+$aTranslation[ "house.terraced.house" ]				= "Terraced House";
+$aTranslation[ "house.wooden.house" ]				= "Wooden House";
+$aTranslation[ "house.finca.-.cortijo" ]			= "Finca";
+$aTranslation[ "house.townhouse" ]					= "Townhouse";
+
+$aTranslation[ "plot" ]								= "Plot";
+$aTranslation[ "plot.commercial.plot" ]				= "Commercial Plot";
+$aTranslation[ "plot.land" ]						= "Land";
+$aTranslation[ "plot.land.with.ruin" ]				= "Land with Ruin";
+$aTranslation[ "plot.residential.plot" ]			= "Residential Plot";
+?>

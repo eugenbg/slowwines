@@ -1,0 +1,850 @@
+<style>
+	input.error, select.error, textarea.error{ border:1px solid red; float:left; }
+	div.error { color:red; margin-top:10px; }
+	div#errorContainer{ visibility:hidden; display:none; }
+	
+	/*
+	 *	Checkbox to button styling.
+	 */
+	input[type=checkbox].css-checkbox 
+	{
+		position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+	}
+
+	input[type=checkbox].css-checkbox + label.css-label
+	{
+		padding-left:25px;
+		height:20px; 
+		display:inline-block;
+		line-height:20px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		/*font-size:20px;*/
+		vertical-align:middle;
+		cursor:pointer;
+	}
+
+	input[type=checkbox].css-checkbox:checked + label.css-label 
+	{
+		background-position: 0 -20px;
+	}
+	
+	label.css-label 
+	{
+		background-image:url(/thm/adm/assets/images/checkBox.png);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		margin-right: 10px;
+		width:150px;
+	}
+</style>
+
+<!-- Modal -->
+<div class="modal fade" id="dismisChanges" tabindex="-1" role="dialog" aria-labelledby="dismisChangesLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Unsaved Information</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					You have some unsaved information, do you wish to proceed and dismiss any changes?
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-no" data-dismiss="modal">No</button>
+				<button type="button" class="btn btn-primary btn-yes">Yes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="listingNote" tabindex="-1" role="dialog" aria-labelledby="listingNoteLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Add Listing Note</h4>
+			</div>
+			<div class="modal-body">
+				<textarea id='note' name='note' style='width:100%;'></textarea>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary btn-add">Add</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="eFlyer" tabindex="-1" role="dialog" aria-labelledby="eFlyer" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h3 id="myModalLabel">Send eFlyer</h3>
+			</div>
+			<div class="modal-body">
+				<fieldset>
+					<div class="form-group">
+						<label class="col-sm-3 control-label" for="efLstLanguage"> Language </label>
+						<div class="col-sm-8">
+							<select id="efLstLanguage" name="efLstLanguage" class="form-control" >
+								<option value="en">English</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label" for=""> Sales Type </label>
+						<div class="col-sm-8">
+							<select id="efLstType" name="efLstType" class="form-control" >
+								<option value="sale">Sale</option>
+								<option value="long">Long Term Rental</option>
+								<option value="short">Short Term Rental</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label" for=""> Email Address </label>
+						<div class="col-sm-8">
+							<input type='text' id='efLstEmail' name='efLstEmail' value="" class="form-control" >
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<button class="btn btn-primary">Send</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id='referrer' style="display:none;visibility: hidden;">{variable.referrer}</div>
+<!--
+<div class="xcrud-top-actions pull-right btn-group">
+	<button id='btnEmailFlyer' class="btn btn-danger" type="button" > Email Flyer </button>
+	<button id='btnEmailFlyer' class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+		<span class="caret"></span>
+		<span class="sr-only">Toggle Dropdown</span>
+	</button>
+	<ul class="dropdown-menu">
+		<li><a href="" id="btnFlyerBranded">eFlyer Branded</a></li>
+		<li><a href="" id="btnFlyerUnBranded">eFlyer Unbranded</a></li>
+	</ul>
+</div>
+-->
+<div class="xcrud-top-actions">
+	<button id='btnSaveNew' class="btn btn-primary" type="button"> Save & New </button>
+	<button id='btnSaveEdit' class="btn btn-default" type="button"> Save & Edit </button>
+	<button id='btnSaveClose' class="btn btn-success" type="button"> Save & Return </button>
+	<button id='btnCancel' class="btn btn-warning" type="button"> Return </button>
+</div>
+
+<br/>
+<div id='errorContainer'></div>
+<div id="alertHolder"></div>
+<form id='frmListing' class="form-horizontal" role="form">
+	<input type='hidden' name='id' id='id' value='{variable.id}' />
+	<input type='hidden' name='frm' id='frm' value='lst' />
+	<input type='hidden' name='_editor' id='_editor' value='{variable._editor}' />
+	<div class="tabbable">
+		<ul id="tabListing" class="nav nav-tabs tab-bricky">
+			<li class="active">
+				<a href="#panelOverview" data-toggle="tab">{reword.listing.tab.overview}</a>
+			</li>
+			<li>
+				<a href="#panelPricing" data-toggle="tab">{reword.listing.tab.pricing}</a>
+			</li>
+			<li>
+				<a href="#panelDescription" data-toggle="tab">{reword.listing.tab.description}</a>
+			</li>
+			<li>
+				<a href="#panelFeature" data-toggle="tab">{reword.listing.tab.feature}</a>
+			</li>
+			<li>
+				<a href="#panelLocation" data-toggle="tab">{reword.listing.tab.location}</a>
+			</li>
+			<li>
+				<a href="#panelImage" data-toggle="tab">{reword.listing.tab.image}</a>
+			</li>
+			<li>
+				<a href="#panelVendor" data-toggle="tab">{reword.listing.tab.vendor}</a>
+			</li>
+			<li>
+				<a href="#panelPrivate" data-toggle="tab">{reword.listing.tab.private}</a>
+			</li>
+			<li>
+				<a href="#panelMLS" data-toggle="tab">{reword.listing.tab.mls}</a>
+			</li>
+			<li>
+				<a href="#panelMeta" data-toggle="tab">{reword.listing.tab.meta}</a>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane in active" id="panelOverview">
+				<fieldset>
+					<legend>{reword.listing.field.set.basic.details}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="ourID"> {reword.listing.reference} </label>
+						<div class="col-sm-2">
+							<input id="ourID" name='ourID' class="form-control" type="text" placeholder="{reword.listing.reference}" value='{variable.ourID}'>
+						</div>
+						<label class="col-sm-2 control-label" for=""> {reword.listing.type.title} </label>
+						<div class="col-sm-2">
+							{variable.isSale}<br/>
+							{variable.isLong}<br/>
+							{variable.isShort}
+						</div>
+						<label class="col-sm-2 control-label" for="available"> {reword.listing.available} </label>
+						<div class="col-sm-2">
+{variable.availableStatus}
+							<input id="available" name='available' class="form-control" type="text" placeholder="{reword.listing.available}" value='{variable.available}' readonly="readonly" >
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="usrField0"> {reword.listing.usr.field.0} </label>
+						<div class="col-sm-2">
+							<input id="usrField0" name='usrField0' class="form-control" type="text" placeholder="{reword.listing.usr.field.0}" value='{variable.usrField0}'" >
+						</div>
+						<label class="col-sm-2 control-label" for="dspStatus"> {reword.listing.display.status} </label>
+						<div class="col-sm-2">
+{variable.dspStatus}
+						</div>
+						<label class="col-sm-2 control-label" for="vndrLastContact"> {reword.listing.vendor.last.contact} </label>
+						<div class="col-sm-2">
+							<input id="vndrLastContact" name='vndrLastContact' class="form-control" type="text" placeholder="{reword.listing.vendor.last.contact}" value='{variable.vndrLastContact}' readonly="readonly">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="usrField1"> {reword.listing.usr.field.1} </label>
+						<div class="col-sm-2">
+							<input id="usrField1" name='usrField1' class="form-control" type="text" placeholder="{reword.listing.usr.field.1}" value='{variable.usrField1}'" >
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="usrField2"> {reword.listing.usr.field.2} </label>
+						<div class="col-sm-2">
+							<input id="usrField2" name='usrField2' class="form-control" type="text" placeholder="{reword.listing.usr.field.2}" value='{variable.usrField2}'" >
+						</div>
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>{reword.listing.field.set.location}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="geoCountry"> {reword.listing.geo.state} </label>
+						<div class="col-sm-2">
+{variable.geoState}
+						</div>
+						<label class="col-sm-2 control-label" for="geoArea"> {reword.listing.geo.province} </label>
+						<div class="col-sm-2" id="geoProvinceHolder">
+{variable.geoProvince}
+						</div>
+						<label class="col-sm-2 control-label" for="geoTown"> {reword.listing.geo.city} </label>
+						<div class="col-sm-2" id="geoCityHolder">
+{variable.geoCity}
+						</div>
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>{reword.listing.field.set.property.details}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="listingType"> {reword.listing.type} </label>
+						<div class="col-sm-2">
+{variable.listingType}
+						</div>
+						<label class="col-sm-2 control-label" for="listingTypeSub"> {reword.listing.type.sub} </label>
+						<div class="col-sm-2" id="listingSubHolder">
+{variable.listingTypeSub}
+						</div>
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+							{variable.hasPool}
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="bed"> {reword.listing.bedroom} </label>
+						<div class="col-sm-2">
+							<input id="bed" name='bed' class="form-control" type="text" placeholder="{reword.listing.bedroom}" value='{variable.bed}'>
+						</div>
+						<label class="col-sm-2 control-label" for="sizeBuilt"> {reword.listing.size.built} </label>
+						<div class="col-sm-2">
+							<input id="sizeBuilt" name='sizeBuilt' class="form-control" type="text" placeholder="{reword.listing.size.built}" value='{variable.sizeBuilt}'>
+						</div>
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+							{variable.hasGarden}
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="bath"> {reword.listing.bathroom} </label>
+						<div class="col-sm-2">
+							<input id="bath" name='bath' class="form-control" type="text" placeholder="{reword.listing.bedroom}" value='{variable.bath}'>
+						</div>
+						<label class="col-sm-2 control-label" for="sizeTerrace"> {reword.listing.size.terrace} </label>
+						<div class="col-sm-2">
+							<input id="sizeTerrace" name='sizeTerrace' class="form-control" type="text" placeholder="{reword.listing.size.terrace}" value='{variable.sizeTerrace}'>
+						</div>
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+							{variable.hasGarage}
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="reception"> {reword.listing.reception} </label>
+						<div class="col-sm-2">
+							<input id="reception" name='reception' class="form-control" type="text" placeholder="{reword.listing.reception}" value='{variable.reception}'>
+						</div>
+						<label class="col-sm-2 control-label" for="sizePlot"> {reword.listing.size.plot} </label>
+						<div class="col-sm-2">
+							<input id="sizePlot" name='sizePlot' class="form-control" type="text" placeholder="{reword.listing.size.plot}" value='{variable.sizePlot}'>
+						</div>
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+							{variable.hasTerrace}
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+						</div>
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+						</div>
+						<label class="col-sm-2 control-label" for=""> </label>
+						<div class="col-sm-2">
+							{variable.parking}
+						</div>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>{reword.listing.field.set.engery.rating}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="energyLetter"> {reword.listing.energy.rating.letter} </label>
+						<div class="col-sm-2">
+{variable.energyLetter}
+						</div>
+						<label class="col-sm-2 control-label" for="energyRating"> {reword.listing.energy.rating} </label>
+						<div class="col-sm-2">
+							<input id="energyRating" name='energyRating' class="form-control" type="text" placeholder="{reword.listing.energy.rating}" value='{variable.energyRating}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.energy.co2.rating.letter} </label>
+						<div class="col-sm-2">
+{variable.co2Letter}
+						</div>
+						<label class="col-sm-2 control-label" for="co2Rating"> {reword.listing.energy.co2.rating} </label>
+						<div class="col-sm-2">
+							<input id="co2Rating" name='co2Rating' class="form-control" type="text" placeholder="{reword.listing.enery.co2.rating}" value='{variable.co2Rating}'>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="tab-pane" id="panelPricing">
+				<fieldset id="salePricing">
+					<legend>{reword.listing.field.set.pricing.sale}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.price.current} </label>
+						<div class="col-sm-2">
+							<input id="priceResaleCurrent" name='priceResaleCurrent' class="form-control" type="text" placeholder="{reword.listing.price.current}" value='{variable.priceResaleCurrent}'>
+						</div>
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.price.currency} </label>
+						<div class="col-sm-2">
+{variable.priceCurrency}
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.price.original} </label>
+						<div class="col-sm-2">
+							<input id="priceResaleOriginal" name='priceResaleOriginal' class="form-control" type="text" placeholder="{reword.listing.price.original}" value='{variable.priceResaleOriginal}'>
+						</div>
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.price.special} </label>
+						<div class="col-sm-2">
+{variable.priceSpecial}
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.price.valuation} </label>
+						<div class="col-sm-2">
+							<input id="priceResaleValuation" name='priceResaleValuation' class="form-control" type="text" placeholder="{reword.listing.price.valuation}" value='{variable.priceResaleValuation}'>
+						</div>
+						<label class="col-sm-2 control-label" for="co2Letter"> {reword.listing.price.valuation.year} </label>
+						<div class="col-sm-2">
+							<input id="priceResaleValuationYear" name='priceResaleValuationYear' class="form-control" type="text" placeholder="{reword.listing.price.valuation.year}" value='{variable.priceResaleValuationYear}'>
+						</div>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset id="rentalPricing">
+					<legend>{reword.listing.field.set.pricing.rental}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="priceRentalShortTermLow"> {reword.listing.rental.short.term.low} </label>
+						<div class="col-sm-2">
+							<input id="priceRentalShortTermLow" name='priceRentalShortTermLow' class="form-control" type="text" placeholder="{reword.listing.rental.short.term.low}" value='{variable.priceRentalShortTermLow}'>
+						</div>
+						<label class="col-sm-2 control-label" for="priceRentalLongTerm"> {reword.listing.rental.long.term} </label>
+						<div class="col-sm-2">
+							<input id="priceRentalLongTerm" name='priceRentalLongTerm' class="form-control" type="text" placeholder="{reword.listing.rental.long.term}" value='{variable.priceRentalLongTerm}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="priceRentalShortTermMid"> {reword.listing.rental.short.term.mid} </label>
+						<div class="col-sm-2">
+							<input id="priceRentalShortTermMid" name='priceRentalShortTermMid' class="form-control" type="text" placeholder="{reword.listing.rental.short.term.mid}" value='{variable.priceRentalShortTermMid}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="priceRentalShortTermHigh"> {reword.listing.rental.short.term.high} </label>
+						<div class="col-sm-2">
+							<input id="priceRentalShortTermHigh" name='priceRentalShortTermHigh' class="form-control" type="text" placeholder="{reword.listing.rental.short.term.high}" value='{variable.priceRentalShortTermHigh}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="priceRentalShortTermHoliday"> {reword.listing.rental.short.term.peak} </label>
+						<div class="col-sm-2">
+							<input id="priceRentalShortTermHoliday" name='priceRentalShortTermHoliday' class="form-control" type="text" placeholder="{reword.listing.rental.short.term.peak}" value='{variable.priceRentalShortTermHoliday}'>
+						</div>
+						<label class="col-sm-2 control-label" for="priceRentalDeposit"> {reword.listing.rental.deposit} </label>
+						<div class="col-sm-2">
+							<input id="priceRentalDeposit" name='priceRentalDeposit' class="form-control" type="text" placeholder="{reword.listing.rental.deposit}" value='{variable.priceRentalDeposit}'>
+						</div>
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>{reword.listing.field.set.pricing.fee}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="feeCommunity"> {reword.listing.fee.community} </label>
+						<div class="col-sm-2">
+							<input id="feeCommunity" name='feeCommunity' class="form-control" type="text" placeholder="{reword.isting.fee.community}" value='{variable.feeCommunity}'>
+						</div>
+						<label class="col-sm-2 control-label" for="notaSimple"> {reword.listing.nota.simple} </label>
+						<div class="col-sm-2">
+{variable.notaSimple}
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="feeLocal"> {reword.listing.fee.local} </label>
+						<div class="col-sm-2">
+							<input id="feeLocal" name='feeLocal' class="form-control" type="text" placeholder="{reword.listing.fee.local}" value='{variable.feeLocal}'>
+						</div>
+						<label class="col-sm-2 control-label" for="firstOccupancyLicence"> {reword.listing.first.occupancy.licence} </label>
+						<div class="col-sm-2">
+{variable.firstOccupancyLicence}
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="feeGarbage"> {reword.listing.fee.garbage} </label>
+						<div class="col-sm-2">
+							<input id="feeGarbage" name='feeGarbage' class="form-control" type="text" placeholder="{reword.listing.fee.garbage}" value='{variable.feeGarbage}'>
+						</div>
+						<label class="col-sm-2 control-label" for="catastralReference"> {reword.listing.catastral.reference} </label>
+						<div class="col-sm-2">
+							<input id="catastralReference" name='catastralReference' class="form-control" type="text" placeholder="{reword.listing.catastral.reference}" value='{variable.catastralReference}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="freehold"> {reword.listing.fee.local} </label>
+						<div class="col-sm-2">
+{variable.freehold}
+						</div>
+						<label class="col-sm-2 control-label" for="ibiReceipt"> {reword.listing.first.occupancy.licence} </label>
+						<div class="col-sm-2">
+{variable.ibiReceipt}
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="tab-pane" id="panelDescription">
+				<div class="tabbable">
+					<ul id="tabListingDescription" class="nav nav-tabs tab-bricky">
+{variable.description.tab}
+					</ul>
+					<div class="tab-content">
+{variable.description.body}
+					</div>
+				</div>
+			</div>
+			
+			<div class="tab-pane" id="panelFeature">
+{variable.feature}
+			</div>
+			
+			<div class="tab-pane" id="panelLocation">
+				<fieldset id="distance">
+					<legend>{reword.listing.field.set.distance}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.airport} </label>
+						<div class="col-sm-2">
+							<input id="distance" name='distanceAirport' class="form-control" type="text" placeholder="{reword.listing.distance.airport}" value='{variable.distanceAirport}'>
+						</div>
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.bar} </label>
+						<div class="col-sm-2">
+							<input id="distanceBar" name='distanceBar' class="form-control" type="text" placeholder="{reword.listing.distance.bar}" value='{variable.distanceBar}'>
+						</div>
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.beach} </label>
+						<div class="col-sm-2">
+							<input id="distanceBeach" name='distanceBeach' class="form-control" type="text" placeholder="{reword.listing.distance.beach}" value='{variable.distanceBeach}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.train.station} </label>
+						<div class="col-sm-2">
+							<input id="distanceTrainStation" name='distanceTrainStation' class="form-control" type="text" placeholder="{reword.listing.distance.train.station}" value='{variable.distanceTrainStation}'>
+						</div>
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.restaurant} </label>
+						<div class="col-sm-2">
+							<input id="distanceRestaurant" name='distanceRestaurant' class="form-control" type="text" placeholder="{reword.listing.distance.restaurant}" value='{variable.distanceRestaurant}'>
+						</div>
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.golf} </label>
+						<div class="col-sm-2">
+							<input id="distanceGolf" name='distanceGolf' class="form-control" type="text" placeholder="{reword.listing.distance.golf}" value='{variable.distanceGolf}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.bus.stop} </label>
+						<div class="col-sm-2">
+							<input id="distanceBusStop" name='distanceBusStop' class="form-control" type="text" placeholder="{reword.listing.distance.bus.stop}" value='{variable.distanceBusStop}'>
+						</div>
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.local.shop} </label>
+						<div class="col-sm-2">
+							<input id="distanceLocalShop" name='distanceLocalShop' class="form-control" type="text" placeholder="{reword.listing.distance.local.shop}" value='{variable.distanceLocalShop}'>
+						</div>
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.skiing} </label>
+						<div class="col-sm-2">
+							<input id="distanceSkiing" name='distanceSkiing' class="form-control" type="text" placeholder="{reword.listing.distance.skiing}" value='{variable.distanceSkiing}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.school} </label>
+						<div class="col-sm-2">
+							<input id="distanceSchool" name='distanceSchool' class="form-control" type="text" placeholder="{reword.listing.distance.school}" value='{variable.distanceSchool}'>
+						</div>
+						
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.distance.shopping.mall} </label>
+						<div class="col-sm-2">
+							<input id="distanceShoppingMall" name='distanceShoppingMall' class="form-control" type="text" placeholder="{reword.listing.distance.shopping.mall}" value='{variable.distanceShoppingMall}'>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset id="listingLocation">
+					<legend>{reword.listing.field.set.listing.location}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="address1"> {reword.listing.address.1} </label>
+						<div class="col-sm-2">
+							<input id="address1" name='address1' class="form-control" type="text" placeholder="{reword.listing.address.1}" value='{variable.address1}'>
+						</div>
+						
+						<label class="col-sm-2 control-label" for="postCode"> {reword.listing.address.post.code} </label>
+						<div class="col-sm-2">
+							<input id="postCode" name='postCode' class="form-control" type="text" placeholder="{reword.listing.address.post.code}" value='{variable.postCode}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="address2"> {reword.listing.address.2} </label>
+						<div class="col-sm-2">
+							<input id="address2" name='address2' class="form-control" type="text" placeholder="{reword.listing.address.2}" value='{variable.address2}'>
+						</div>
+						
+						<label class="col-sm-2 control-label" for="country"> {reword.listing.country} </label>
+						<div class="col-sm-2">
+							<input id="country" name='country' class="form-control" type="text" placeholder="{reword.listing.country}" value='{variable.country}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="address3"> {reword.listing.address.3} </label>
+						<div class="col-sm-2">
+							<input id="address3" name='address3' class="form-control" type="text" placeholder="{reword.listing.address.3}" value='{variable.address3}'>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset id="listingDirection">
+					<legend>{reword.listing.field.set.listing.direction}</legend>
+					<label class="col-sm-2 control-label" for="direction"> </label>
+					<div class="col-sm-10">
+						<textarea id="direction" name='direction' class="form-control">{variable.direction}</textarea>
+					</div>
+				</fieldset>
+				<fieldset id="latitudeLongitude">
+					<legend>{reword.listing.field.set.position}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.geo.latitude} </label>
+						<div class="col-sm-2">
+							<input id="geoLatitude" name='geoLatitude' class="form-control" type="text" placeholder="{reword.listing.geo.latitude}" value='{variable.geoLatitude}'>
+						</div>
+						
+						<label class="col-sm-2 control-label" for="distance"> {reword.listing.geo.longitude} </label>
+						<div class="col-sm-2">
+							<input id="geoLongitude" name='geoLongitude' class="form-control" type="text" placeholder="{reword.listing.distance.geo.longitude}" value='{variable.geoLongitude}'>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="tab-pane" id="panelImage">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="alert alert-info">
+							<i class='fa fa-info-circle'></i>&nbsp;{reword.listing.image.upload.help}
+						</div>
+						<div class='dropzone'></div>
+					</div>
+					<link rel="stylesheet" href="/thm/adm/assets/plugins/dropzone/downloads/css/dropzone.css">
+					<script src="/thm/adm/assets/plugins/dropzone/downloads/dropzone.js"></script>
+					<script src="/thm/adm/assets/plugins/dropzone/q23.js"></script>
+				</div>
+			</div>
+			
+			<div class="tab-pane" id="panelVendor">
+				<fieldset>
+					<legend>{reword.listing.field.set.vendor}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrFirstName"> {reword.listing.vendor.first.name} </label>
+						<div class="col-sm-2">
+							<input id="vndrFirstName" name='vndrFirstName' class="form-control" type="text" placeholder="{reword.listing.vendor.first.name}" value='{variable.vndrFirstName}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrLastName"> {reword.listing.vendor.last.name} </label>
+						<div class="col-sm-2">
+							<input id="vndrLastName" name='vndrLastName' class="form-control" type="text" placeholder="{reword.listing.vendor.last.name}" value='{variable.vndrLastName}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrTelephone1"> {reword.listing.vendor.telephone.1} </label>
+						<div class="col-sm-2">
+							<input id="vndrTelephone1" name='vndrTelephone1' class="form-control" type="text" placeholder="{reword.listing.vendor.telephone.1}" value='{variable.vndrTelephone1}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrTelephone2"> {reword.listing.vendor.telephone.2} </label>
+						<div class="col-sm-2">
+							<input id="vndrTelephone2" name='vndrTelephone2' class="form-control" type="text" placeholder="{reword.listing.vendor.telephone.2}" value='{variable.vndrTelephone2}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrMobile1"> {reword.listing.vendor.mobile.1} </label>
+						<div class="col-sm-2">
+							<input id="vndrMobile1" name='vndrMobile1' class="form-control" type="text" placeholder="{reword.listing.vendor.mobile.1}" value='{variable.vndrMobile1}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrMobile2"> {reword.listing.vendor.mobile.2} </label>
+						<div class="col-sm-2">
+							<input id="vndrMobile2" name='vndrMobile2' class="form-control" type="text" placeholder="{reword.listing.vendor.mobile.2}" value='{variable.vndrMobile2}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrEmail"> {reword.listing.vendor.email} </label>
+						<div class="col-sm-6">
+							<input id="vndrEmail" name='vndrEmail' class="form-control" type="text" placeholder="{reword.listing.vendor.email}" value='{variable.vndrEmail}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrAddress1"> {reword.listing.vendor.address.1} </label>
+						<div class="col-sm-2">
+							<input id="vndrAddress1" name='vndrAddress1' class="form-control" type="text" placeholder="{reword.listing.vendor.address.1}" value='{variable.vndrAddress1}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrPostCode"> {reword.listing.vendor.post.code} </label>
+						<div class="col-sm-2">
+							<input id="vndrPostCode" name='vndrPostCode' class="form-control" type="text" placeholder="{reword.listing.vendor.post.code}" value='{variable.vndrPostCode}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrAddress2"> {reword.listing.vendor.address.2} </label>
+						<div class="col-sm-2">
+							<input id="vndrAddress2" name='vndrAddress2' class="form-control" type="text" placeholder="{reword.listing.vendor.address.2}" value='{variable.vndrAddress2}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrCountry"> {reword.listing.vendor.country} </label>
+						<div class="col-sm-2">
+							<input id="vndrCountry" name='vndrCountry' class="form-control" type="text" placeholder="{reword.listing.vendor.country}" value='{variable.vndrCountry}'>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrAddress3"> {reword.listing.vendor.address.3} </label>
+						<div class="col-sm-2">
+							<input id="vndrAddress3" name='vndrAddress3' class="form-control" type="text" placeholder="{reword.listing.vendor.address.3}" value='{variable.vndrAddress3}'>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>{reword.listing.field.set.term}</legend>
+					<label class="col-sm-2 control-label" for="vndrTermCondition"> </label>
+					<div class="col-sm-10">
+						<textarea id="vndrTermCondition" name='vndrTermCondition' class="form-control">{variable.vndrTermCondition}</textarea>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>{reword.listing.field.set.key}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrKeyStatus"> {reword.listing.vendor.key.status} </label>
+						<div class="col-sm-2">
+{variable.vndrKeyStatus}
+						</div>
+						<label class="col-sm-2 control-label" for="vndrKeyDetail"> {reword.listing.vendor.key.detail} </label>
+						<div class="col-sm-6">
+							<input id="vndrKeyDetail" name='vndrKeyDetail' class="form-control" type="text" placeholder="{reword.listing.vendor.key.detail}" value='{variable.vndrKeyDetail}'>
+						</div>
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>{reword.listing.field.set.tenant}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="vndrTenantName"> {reword.listing.tenant.name} </label>
+						<div class="col-sm-2">
+							<input id="vndrTenantName" name='vndrTenantName' class="form-control" type="text" placeholder="{reword.listing.tenant.name}" value='{variable.vndrTenantName}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrTenantEmail"> {reword.listing.tenant.email} </label>
+						<div class="col-sm-2">
+							<input id="vndrTenantEmail" name='vndrTenantEmail' class="form-control" type="text" placeholder="{reword.listing.tenant.email}" value='{variable.vndrTenantEmail}'>
+						</div>
+						<label class="col-sm-2 control-label" for="vndrTenantTelephone"> {reword.listing.tenant.telephone} </label>
+						<div class="col-sm-2">
+							<input id="vndrTenantTelephone" name='vndrTenantTelephone' class="form-control" type="text" placeholder="{reword.listing.tenant.telephone}" value='{variable.vndrTenantTelephone}'>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="tab-pane" id="panelPrivate">
+				<fieldset>
+					<legend>{reword.listing.field.set.notation}<button id='btnListingNote' class="btn btn-primary pull-right" type="button">Add Note</button></legend>
+							
+					<div class="row">
+						<div id='notation' class="col-md-12">{variable.notation}</div>
+						<hr />
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="tab-pane" id="panelMLS">
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="dspStatus"> {reword.listing.display.feed.owner} </label>
+					<div class="col-sm-4">
+						<input id="agencyID" name='agencyID' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.display.feed.owner}" value="{variable.agencyID}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsID"> {reword.listing.mls.id} </label>
+					<div class="col-sm-4">
+						<input id="mlsID" name='mlsID' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.mls.id}" value="{variable.mlsID}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsReference"> {reword.listing.mls.reference} </label>
+					<div class="col-sm-4">
+						<input id="mlsReference" name='mlsReference' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.mls.reference}" value="{variable.mlsReference}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsProvider"> {reword.listing.mls.provider} </label>
+					<div class="col-sm-4">
+						<input id="mlsProvider" name='mlsProvider' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.mls.provider}" value="{variable.mlsProvider}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsResaleStatus"> {reword.listing.mls.status} </label>
+					<div class="col-sm-4">
+						<input id="mlsResaleStatus" name='mlsResaleStatus' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.mls.status}" value="{variable.mlsResaleStatus}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsRentalStatus"> {reword.listing.mls.status} </label>
+					<div class="col-sm-4">
+						<input id="mlsRentalStatus" name='mlsRentalStatus' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.mls.status}" value="{variable.mlsRentalStatus}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsOwnListing"> {reword.listing.mls.own.listing} </label>
+					<div class="col-sm-4">
+						<input id="mlsOwnListing" name='mlsOwnListing' class="form-control" type="text" disabled='disabled' placeholder="{reword.listing.mls.own.listing}" value="{variable.mlsOwnListing}">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="panelMeta">
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsOwnListing"> {reword.listing.active} </label>
+					<div class="col-sm-4">
+						{variable._activeSale}<br/>
+						{variable._activeRentLong}<br/>
+						{variable._activeRentShort}
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" for="mlsOwnListing"> {reword.listing.featured} </label>
+					<div class="col-sm-4">
+						{variable.isFeaturedSale}<br/>
+						{variable.isFeaturedRentLong}<br/>
+						{variable.isFeaturedRentShort}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+
+<script type="text/javascript" src="/thm/adm/assets/plugins/jquery.form/jquery.form.js"></script>
+<script type="text/javascript" src="/inc/vndr/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="/thm/adm/assets/plugins/jquery.AreYouSure-master/jquery.are-you-sure.js"></script>
+<script src="/thm/adm/js/listing.editor.js"></script>
+<script>
+	var oLst	= new listing( [ {variable.supported.language} ], {variable.language} );
+	var oAlert	= new message();
+//	var sMulti	= { buttonClass:'btn btn-default', includeSelectAllOption: true, onChange:oLst.similar() };
+
+	$( document ).ready
+	(
+		function()
+		{
+			tinyMCE.init
+			(
+				{
+					menubar:false,
+					statusbar:false,
+					theme: "modern",
+					skin: "light",
+					mode: "textareas",
+					editor_selector: "summernote",
+					height: "250",
+					language : "en",
+					plugins: [ "code,link,lists,jbimages,wordcount" ],
+			        toolbar: "undo redo | styleselect | bold italic | alignleft aligncenter alignright | bullist numlist | outdent indent blockquote | link image jbimages | code",
+			        relative_urls: false
+				}
+			);
+			
+			$( '#frmListing' ).areYouSure( { 'silent':true } );
+			$( '#btnSaveEdit' ).click( function(){ oLst.save( 'frmListing' ); } );
+			$( '#btnSaveNew' ).click( function(){ oLst.saveNew( 'frmListing' ); } );
+			$( '#btnSaveClose' ).click( function(){ oLst.saveClose( 'frmListing' ); } );
+			$( '#btnCancel' ).click( function(){ oLst.cancel(); } );
+			$( '#btnListingNote' ).click( function(){ oLst.note(); } );
+			
+			$( '#btnFlyerBranded' ).click( function( e ){ e.preventDefault(); oLst.eFlyer( "eFlyerBranded" ); } );
+			$( '#btnFlyerUnBranded' ).click( function( e ){ e.preventDefault(); oLst.eFlyer( "eFlyerUnbranded" ); } );
+			
+			$( '#listingType' ).change( function(){ oLst.getListingSubType( $( "#listingType option:selected" ).val() ); } )
+			$( '#geoState' ).change( function(){ oLst.getProvince( $( "#geoState option:selected" ).val() ); oLst.getCity( $( "#geoState option:selected" ).val(), $( "#geoProvince option:selected" ).val() ); } )
+			$( '#geoProvince' ).change( function(){ oLst.getCity( $( "#geoState option:selected" ).val(), $( "#geoProvince option:selected" ).val() ); } )
+			$( ".checkedLabel" ).click( function(){ sID	= "#" + $( this ).attr( 'for' ); checkBoxSwitch( sID ); } );
+
+			$( "#available" ).datepicker( { dateFormat: "yy-mm-dd", "setDate": $( "#available" ).val() } );
+			$( "#vndrLastContact" ).datepicker( { dateFormat: "yy-mm-dd", "setDate": $( "#vndrLastContact" ).val() } );
+			
+			oLst.count();
+		}
+	)	
+</script>

@@ -1,0 +1,75 @@
+					<form class="search" method="post" action="/jx/lst.search.intercept.php">
+						<input type="hidden" id="country" name="country" value="{variable.country}" />
+						<input type="hidden" id="language" name="language" value="{variable.language}" />
+						<fieldset>
+							<!--div class="col-xs-12 col-sm-4 col-md-1">
+								<div class="form-group">
+									<label for="area">{translate.search.area}</label>
+									<select class="multiselect" name="area" id="area">
+{variable.select.area}
+									</select>
+								</div>
+							</div-->
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="form-group">
+									<label for="location[]">{translate.search.location}</label>
+									<select class='form-control' name='location[]' id='location' multiple='multiple'>
+{variable.select.location}
+									</select>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="form-group">
+									<label for="listing">{translate.search.listing.type}</label>
+									<select class="form-control" name="listing" id="listing">
+{variable.select.listing.type}
+									</select>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="form-group">
+									<label for="property-type">{translate.search.property.type}</label>
+									<select class="form-control" name="property[]" id="property" multiple="multiple">
+{variable.select.property.type}
+									</select>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-1">
+								<div class="form-group">
+                                    <label for="price-min">{translate.search.price.minimum}</label>
+                                    <select class="form-control" name="pricemin" id="pricemin">
+{variable.select.price.min}
+                                    </select>
+                                </div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-1">
+								<div class="form-group">
+                                    <label for="price-max">{translate.search.price.maximum}</label>
+                                    <select class="form-control" name="pricemax" id="pricemax">
+{variable.select.price.max}
+                                    </select>
+                                </div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-1">
+								<div class="form-group">
+									<label for="bed">{translate.search.bed}</label>
+									<select class="form-control" name="bed" id="bed">
+{variable.select.bed}
+									</select>											
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-1">
+								<div class="form-group">
+									<label for="reference">{translate.search.reference}</label>
+									<input class="form-control" name="reference" id="reference" type="text" />
+								</div>											
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="form-group">
+									<label for="search" class="sr-only">{translate.search.submit}</label>
+									<button type="submit" class="btn btn-search btn-block">{translate.search.submit}</button>
+				                </div>																					
+							</div>
+						</fieldset>
+					</form>
+					<div class='searchData'>{variable.search.option}</div>

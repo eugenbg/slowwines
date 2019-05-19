@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{variable.company.name}</title>
+		<style>
+			body 	{background-color:#f2f2f2 !important;}
+			h2 		{font:bold 16px/16px Verdana, Geneva, sans-serif; color:#000; text-transform:uppercase;}
+			h3 		{font:bold 14px/14px Verdana, Geneva, sans-serif; color:#000;}
+			p 		{font:normal 12px/20px Verdana, Geneva, sans-serif; color:#444;}
+			a 		{color:#369; text-decoration:none;}
+			a:hover {color:#000;}
+			small 	{font:normal 11px/16px Verdana, Geneva, sans-serif; color:#999; text-align:center;}
+		</style>
+	</head>
+	<body>
+		<table width="100%" bgcolor="#f2f2f2" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+				<td align="center">
+                	<img src="{variable.domain}/thm/usr/img/emailHeader.jpg" alt="Title" width="692" height="125" border="0" style="display:block;" />
+                </td>
+			</tr>
+            <tr>
+            	<td>
+                    <table width="666" bgcolor="#f9f9f9" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tr>
+                        	<td width="48">
+                        	</td>
+                        	<td align="center">
+                    			<table width="572" border="0" cellspacing="0" cellpadding="0">
+				                    <tr>
+                                    	<td>
+                    						<table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                <tr>
+                                                	<td colspan="2">
+														{variable.body}
+                                                    </td>
+                                                </tr>
+                                            </table>    
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="48">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                	<img src="{variable.domain}/thm/usr/img/emailFooter.jpg" alt="Footer" width="692" height="120" border="0" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+					<small>
+						{variable.company.name} | {variable.company.telephone} | <a href="mailto:{variable.company.email}">{variable.company.email}</a><br />
+					</small>
+                </td>
+            </tr>
+        </table>
+	</body>
+</html>

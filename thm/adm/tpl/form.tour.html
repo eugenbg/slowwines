@@ -1,0 +1,355 @@
+<style>
+	input.error, select.error, textarea.error{ border:1px solid red; float:left; }
+	div.error { color:red; margin-top:10px; }
+	div#errorContainer{ visibility:hidden; display:none; }
+	
+	/*
+	 *	Checkbox to button styling.
+	 */
+	input[type=checkbox].css-checkbox 
+	{
+		position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+	}
+	input[type=checkbox].css-checkbox + label.css-label
+	{
+		padding-left:25px;
+		height:20px; 
+		display:inline-block;
+		line-height:20px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		/*font-size:20px;*/
+		vertical-align:middle;
+		cursor:pointer;
+	}
+	.related input[type=checkbox].css-checkbox + label.css-label  {
+		margin-bottom:50px;
+	}
+	input[type=checkbox].css-checkbox:checked + label.css-label 
+	{
+		background-position: 0 -20px;
+	}
+	
+	label.css-label 
+	{
+		background-image:url(/thm/adm/assets/images/checkBox.png);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		margin-right: 10px;
+		width:150px;
+	}
+</style>
+
+<!-- Modal -->
+<div class="modal fade" id="dismisChanges" tabindex="-1" role="dialog" aria-labelledby="dismisChangesLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Unsaved Information</h4>
+			</div>
+			<div class="modal-body">
+				<p>
+					You have some unsaved information, do you wish to proceed and dismiss any changes?
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-no" data-dismiss="modal">No</button>
+				<button type="button" class="btn btn-primary btn-yes">Yes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="listingNote" tabindex="-1" role="dialog" aria-labelledby="listingNoteLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Add Listing Note</h4>
+			</div>
+			<div class="modal-body">
+				<textarea id='note' name='note' style='width:100%;'></textarea>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary btn-add">Add</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="eFlyer" tabindex="-1" role="dialog" aria-labelledby="eFlyer" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h3 id="myModalLabel">Send eFlyer</h3>
+			</div>
+			<div class="modal-body">
+				<fieldset>
+					<div class="form-group">
+						<label class="col-sm-3 control-label" for="efLstLanguage"> Language </label>
+						<div class="col-sm-8">
+							<select id="efLstLanguage" name="efLstLanguage" class="form-control" >
+								<option value="en">English</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label" for=""> Sales Type </label>
+						<div class="col-sm-8">
+							<select id="efLstType" name="efLstType" class="form-control" >
+								<option value="sale">Sale</option>
+								<option value="long">Long Term Rental</option>
+								<option value="short">Short Term Rental</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label" for=""> Email Address </label>
+						<div class="col-sm-8">
+							<input type='text' id='efLstEmail' name='efLstEmail' value="" class="form-control" >
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<button class="btn btn-primary">Send</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id='referrer' style="display:none;visibility: hidden;">{variable.referrer}</div>
+<!--
+<div class="xcrud-top-actions pull-right btn-group">
+	<button id='btnEmailFlyer' class="btn btn-danger" type="button" > Email Flyer </button>
+	<button id='btnEmailFlyer' class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+		<span class="caret"></span>
+		<span class="sr-only">Toggle Dropdown</span>
+	</button>
+	<ul class="dropdown-menu">
+		<li><a href="" id="btnFlyerBranded">eFlyer Branded</a></li>
+		<li><a href="" id="btnFlyerUnBranded">eFlyer Unbranded</a></li>
+	</ul>
+</div>
+-->
+<div class="xcrud-top-actions">
+	<button id='btnSaveNew' class="btn btn-primary" type="button"> Save & New </button>
+	<button id='btnSaveEdit' class="btn btn-default" type="button"> Save & Edit </button>
+	<button id='btnSaveClose' class="btn btn-success" type="button"> Save & Return </button>
+	<button id='btnCancel' class="btn btn-warning" type="button"> Return </button>
+</div>
+
+<br/>
+<div id='errorContainer'></div>
+<div id="alertHolder"></div>
+<form id='frmListing' class="form-horizontal" role="form">
+	<input type='hidden' name='id' id='id' value='{variable.id}' />
+	<input type='hidden' name='frm' id='frm' value='tr' />
+	<input type='hidden' name='_editor' id='_editor' value='{variable._editor}' />
+	<div class="tabbable">
+		<ul id="tabListing" class="nav nav-tabs tab-bricky">
+			<li class="active">
+				<a href="#panelOverview" data-toggle="tab">{reword.region.tab.overview}</a>
+			</li>
+			<li>
+				<a href="#panelDescription" data-toggle="tab">{reword.region.tab.description}</a>
+			</li>
+			<li>
+				<a href="#panelImage" data-toggle="tab">{reword.region.tab.image}</a>
+			</li>
+			<li>
+				<a href="#panelPrivate" data-toggle="tab">{reword.region.tab.private}</a>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane in active" id="panelOverview">
+				<fieldset>
+					<legend>{reword.region.field.set.basic.details}</legend>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="ourID"> {reword.region.reference} </label>
+						<div class="col-sm-2">
+							<input id="ourID" name='ourID' class="form-control" type="text" placeholder="{reword.region.reference}" value='{variable.ourID}'>
+						</div>
+						<label class="col-sm-2 control-label" for="guide"> {reword.region.guide} </label>
+						<div class="col-sm-2">
+{variable.guide}
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="type"> {reword.region.type} </label>
+						<div class="col-sm-2">
+{variable.type}
+						</div>
+						<label class="col-sm-2 control-label" for="region"> {reword.region.region} </label>
+						<div class="col-sm-2">
+{variable.region}
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="price"> {reword.region.price} (€) </label>
+						<div class="col-sm-1">
+							<input id="price" name='price' class="form-control" type="text" placeholder="{reword.region.price}" value='{variable.price}'>
+						</div>
+						<div class="col-sm-1"></div>
+						<label class="col-sm-2 control-label" for="duration"> {reword.region.duration} ({reword.general.day}) </label>
+						<div class="col-sm-1">
+							<input id="duration" name='duration' class="form-control" type="text" placeholder="{reword.region.duration}" value='{variable.duration}'>
+						</div>
+						<div class="col-sm-1"></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="isFeatured"> Featured Tour </label>
+						<div class="col-sm-9">
+{variable.isFeatured}
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="whenToGo"> {reword.region.whentogo} </label>
+						<div class="col-sm-9">
+{variable.whenToGo}
+						</div>
+					</div>
+					<div class="form-group related">
+						<label class="col-sm-2 control-label" for="related"> {reword.region.related} </label>
+						<div class="col-sm-9">
+{variable.related}
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="related"> {reword.region.permalink} </label>
+						<div class="col-sm-9">
+							<input id="permalink" name='permalink' class="form-control" type="text" placeholder="{reword.region.permalink}" value='{variable.permalink}' readonly="readonly">
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="tab-pane" id="panelDescription">
+				<div class="tabbable">
+					<ul id="tabListingDescription" class="nav nav-tabs tab-bricky">
+{variable.description.tab}
+					</ul>
+					<div class="tab-content">
+{variable.description.body}
+					</div>
+				</div>
+			</div>
+				
+			<div class="tab-pane" id="panelImage">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="alert alert-info">
+							<i class='fa fa-info-circle'></i>&nbsp;{reword.region.image.upload.help}
+						</div>
+						<div class='dropzone'></div>
+					</div>
+					<link rel="stylesheet" href="/thm/adm/assets/plugins/dropzone/downloads/css/dropzone.css">
+					<script src="/thm/adm/assets/plugins/dropzone/downloads/dropzone.js"></script>
+					<script src="/thm/adm/assets/plugins/dropzone/q23.js"></script>
+				</div>
+			</div>
+			
+			<div class="tab-pane" id="panelPrivate">
+				<fieldset>
+					<legend>{reword.region.field.set.notation}<button id='btnListingNote' class="btn btn-primary pull-right" type="button">Add Note</button></legend>
+							
+					<div class="row">
+						<div id='notation' class="col-md-12">{variable.notation}</div>
+						<hr />
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+</form>
+
+<script type="text/javascript" src="/thm/adm/assets/plugins/jquery.form/jquery.form.js"></script>
+<script type="text/javascript" src="/inc/vndr/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="/thm/adm/assets/plugins/jquery.AreYouSure-master/jquery.are-you-sure.js"></script>
+<script src="/thm/adm/js/listing.editor.js"></script>
+<script>
+	var oLst	= new listing( [ {variable.supported.language} ], {variable.language} );
+	var oAlert	= new message();
+	
+	function escapeRegExp( string )
+	{
+		return string.replace( /([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1" );
+	}
+
+	function replaceAll( string, find, replace )
+	{
+		return string.replace( new RegExp( escapeRegExp( find ), 'g' ), replace );
+	}
+
+	$( document ).ready
+	(
+		function()
+		{
+			tinyMCE.init
+			(
+				{
+					menubar:false,
+					statusbar:false,
+					theme: "modern",
+					skin: "light",
+					mode: "textareas",
+					editor_selector: "summernote",
+					height: "250",
+					language : "en",
+					plugins: [ "code,link,lists,jbimages,wordcount" ],
+			        toolbar: "undo redo | styleselect | bold italic | alignleft aligncenter alignright | bullist numlist | outdent indent blockquote | link image jbimages | code",
+			        relative_urls: false
+				}
+			);
+			
+			oLst.count();
+			oLst.showDropZone( 'frmListing' );
+			
+			$( '#frmListing' ).areYouSure( { 'silent':true } );
+			$( '#btnSaveEdit' ).click
+			(
+				function()
+				{
+					$( "#permalink" ).val( "/en/show/tour/" + $( "#en_title" ).val().replace( /\s+/g, '-' ).toLowerCase() + "-" + $( "#id" ).val() + "/" );
+					$( "#permalink" ).val( replaceAll( $( "#permalink" ). val(), "&", "" ) );
+					
+					oLst.save( 'frmListing' );
+				}
+			);
+			$( '#btnSaveNew' ).click
+			(
+				function()
+				{
+					$( "#permalink" ).val( "/en/show/tour/" + $( "#en_title" ).val().replace( /\s+/g, '-' ).toLowerCase() + "-" + $( "#id" ).val() + "/" );
+					$( "#permalink" ).val( replaceAll( $( "#permalink" ). val(), "&", "" ) );
+					
+					oLst.save( 'frmListing' );
+					window.location.assign( "/en/adm/tour/new/"  ); 
+				} 
+			);
+			$( '#btnSaveClose' ).click
+			(
+				function()
+				{
+					$( "#permalink" ).val( "/en/show/tour/" + $( "#en_title" ).val().replace( /\s+/g, '-' ).toLowerCase() + "-" + $( "#id" ).val() + "/" );
+					$( "#permalink" ).val( replaceAll( $( "#permalink" ). val(), "&", "" ) );
+					
+					oLst.saveClose( 'frmListing' ); 
+				} 
+			);
+			$( '#btnCancel' ).click( function(){ oLst.cancel(); } );
+			$( '#btnListingNote' ).click( function(){ oLst.note(); } );
+			
+			$( '#listingType' ).change( function(){ oLst.getListingSubType( $( "#listingType option:selected" ).val() ); } )
+		}
+	)	
+</script>

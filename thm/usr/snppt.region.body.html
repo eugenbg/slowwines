@@ -1,0 +1,61 @@
+					<div class="section-header">
+						<h1><span class="red">{variable.title}: </span>{variable.abstract}</h1>						
+					</div>
+					<div class="col-md-9 col-sm-12">
+						<div class="master-slider ms-skin-default" id="masterslidertour">
+{variable.image}
+						</div>
+						
+						<section id="popular-tours">
+							<div id="filters" class="button-group">
+							    <button class="btn btn-custom is-checked" data-filter="*">All Tours</button>
+							    <button class="btn btn-custom" data-filter=".guided">Guided Tour</button>
+							    <button class="btn btn-custom" data-filter=".self">Self Drive</button>
+								<button class="btn btn-custom" data-filter=".premium">Premium Tour</button>
+							</div>
+							<div class="row isotope">
+{variable.isotope}
+							</div>	
+						</section>		
+						
+						<h3>{variable.title}</h3>
+{variable.body}
+						
+						<h3>Why we like this wine region</h3>
+{variable.like}
+						
+						<section id="testimonial">
+							<h3 class="bg">Client Testimonials</h3>							
+							<div id="carousel-testimonial" class="carousel slide">
+					        	<div class="carousel-navigation pull-right">
+		        			    	<a class="pull-left view-all" href="/{variable.language}/view/testimonial/">View all</a>
+		        			    	<a class="left carousel-control pull-left" href="#carousel-testimonial" data-slide="prev">&lsaquo;</a>
+		        			    	<a class="right carousel-control pull-right" href="#carousel-testimonial" data-slide="next">&rsaquo;</a>
+		        			    </div>
+
+								<div class="carousel-inner">
+{variable.testimonial}
+								</div>
+							</div>	
+						</section>
+						<div class="clearfix"></div>
+					</div>
+					
+					<div class="col-md-3 col-sm-12">
+						<span class="tab-header">Places of interest</span>
+						<div class="bg">
+							<ul class="list-unstyled icon">
+{variable.poi}
+							</ul>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-sm-6">
+								<a class="btn btn-custom btn-block">Ask us for more information</a>
+								<a href="{variable.expert}"><h5><i class="fa fa-user"></i>&nbsp;&nbsp;Region Expert</h5></a>
+								<h5><i class="fa fa-calendar"></i>&nbsp;&nbsp; {variable.whenToGo}</h5>
+								<!--a href=""><h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email a Friend</h5></a-->							
+  								<div class="share-button"></div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>

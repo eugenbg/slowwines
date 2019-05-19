@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="/inc/vndr/datepicker/css/bootstrap-datetimepicker.min.css" />
+
+<h1>Ask the Slow Wines Experts</h1>
+<div id="frmEnquireMainWrapper">
+	<form  id="frmEnquireMain" name="frmEnquireMain" class="form-horizontal">
+	    <input type="hidden" name="campaign" id="campaign" value="contact" />
+		<input type='hidden' name='prdct' id='prdct' value='cntnt' />
+		<input type='hidden' name='pid' id='pid' value='' />
+		<input type='hidden' name='prf' id='prf' value='' />
+		<input type="hidden" name="language" id="language" value="en" />
+		<fieldset>
+			<div class="form-group">
+		  		<label class="col-md-5 control-label" for="name"> Your Name *</label>  
+		  		<div class="col-md-7">
+		  			<input id="name" name="name" class="form-control" required="" type="text">
+		 		</div>
+			</div>
+			
+			<div class="form-group">
+		  		<label class="col-md-5 control-label" for="email"> Last Name *</label>  
+		  		<div class="col-md-7">
+					<input id="email" name="email" class="form-control" required="" type="text">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="friendName"> Friends Name *</label>  
+				<div class="col-md-7">
+					<input id="friendName" name="friendName" class="form-control" required="" type="text">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="friendEmail"> Friend Email *</label>  
+				<div class="col-md-7">
+					<input id="friendEmail" name="friendEmail" class="form-control" required="" type="text">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="message">Message</label>
+				<div class="col-md-7">                     
+					<textarea class="form-control" id="message" name="message"></textarea>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="singlebutton"></label>
+				<div class="col-md-7">
+					<button id="singlebutton" name="singlebutton" class="btn btn-custom">Submit</button>
+				</div>
+			</div>
+			<p class="legal">{translate.form.legal.notice}</p>
+		</fieldset>
+	</form>
+</div>

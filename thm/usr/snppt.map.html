@@ -1,0 +1,39 @@
+		<style>
+			.gm-style-iw{ width:200px; min-height:100px; }
+			h1 { display:inline; font:bold 14px Georgia; color:#3d312e; margin-bottom:2px; padding:0;}
+		</style>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
+		<!--<script type="text/javascript" src="/dt/csv/location.js"></script>-->
+		<script type="text/javascript">
+			function initialize() 
+			{
+{variable.location}
+
+				var sImgShort	= '/thm/usr/img/map/house.png';
+				var sImgAirport	= '/thm/usr/img/map/airport.png';
+				var oLatlng		= new google.maps.LatLng( 36.756846, -3.872404 );
+				var aOption		= { zoom:10, center:oLatlng, scrollwheel:false, mapTypeId:google.maps.MapTypeId.ROADMAP };
+				var oMap		= new google.maps.Map( document.getElementById( "mapCanvas" ), aOption );
+				var oInfoWindow = new google.maps.InfoWindow();
+
+				
+				for( i=0; i<aLocation.length; i++ )
+				{
+					if( aLocation[i][0] == 'Airport' )
+					{
+						sImg	= sImgAirport;
+					}
+					else
+					{
+						sImg	= sImgShort;
+					}
+					
+					oMarker	= new google.maps.Marker( { title: aLocation[i][0], position:new google.maps.LatLng( aLocation[i][1], aLocation[i][2] ), map: oMap, icon:sImg } );
+					
+					google.maps.event.addListener( oMarker, 'click', ( function( oMarker, i ){ return function() { oInfoWindow.setContent( aLocation[i][3]); oInfoWindow.open( oMap, oMarker ); } })( oMarker, i ) );
+				}
+			}
+			
+			$( document ).ready( function(){ initialize() } );
+		</script>
+		<div id="mapCanvas" style="height:450px"></div>

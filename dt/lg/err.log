@@ -1,0 +1,2190 @@
+[2015-02-11 11:13:03 127.0.0.1] 
+Unknown Tour (156)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show('1')
+#1 {main}</pre>
+[2015-02-11 11:13:41 127.0.0.1] 
+Unknown Tour (156)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show('1')
+#1 {main}</pre>
+[2015-02-11 11:14:14 127.0.0.1] 
+Unknown Tour (156)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show('1')
+#1 {main}</pre>
+[2015-02-11 11:14:35 127.0.0.1] 
+Unknown Tour (161)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show('1')
+#1 {main}</pre>
+[2015-02-11 11:15:46 127.0.0.1] 
+Unknown Tour (161)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show(1)
+#1 {main}</pre>
+[2015-02-11 11:17:22 127.0.0.1] 
+Unknown Tour (161)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show(1)
+#1 {main}</pre>
+[2015-02-11 11:17:27 127.0.0.1] 
+Unknown Tour (161)<pre>#0 C:\wamp\www\sd\sw\index.php(81): q23swTour->show(1)
+#1 {main}</pre>
+[2016-09-10 07:49:24 104.131.219.237] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-19 16:52:44 217.125.214.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-20 11:33:30 104.131.182.65] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-21 16:17:25 66.249.66.176] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-22 17:14:08 217.125.214.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-22 18:34:49 217.125.214.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-22 18:40:09 217.125.214.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-22 18:41:55 217.125.214.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-22 18:56:33 217.125.214.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-26 19:02:15 81.19.188.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-09-30 22:35:56 104.131.176.180] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-10-12 07:15:24 207.46.13.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-10-14 15:27:20 72.76.221.220] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-10-26 09:52:20 45.55.69.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-03 11:18:39 157.55.39.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-05 16:23:33 207.46.13.102] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-06 01:17:46 45.55.129.84] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-07 00:41:26 5.9.156.11] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-09 13:29:56 157.55.39.202] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-14 03:23:52 40.77.167.10] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-16 16:31:45 104.236.8.119] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-23 05:46:14 71.127.222.91] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-25 05:27:42 207.46.13.72] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-26 19:11:32 66.249.66.139] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-27 02:09:44 207.46.13.3] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-27 09:54:55 162.243.25.240] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-11-27 10:08:21 162.243.25.240] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-01 00:49:32 157.55.39.120] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-01 14:13:42 86.128.157.147] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-03 05:07:05 207.46.13.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-05 05:54:15 157.55.39.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-05 18:38:44 167.114.234.184] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-06 20:23:49 157.55.39.175] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-08 07:35:48 104.236.218.145] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-08 07:49:28 104.236.218.145] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-09 00:01:07 207.46.13.9] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-09 03:43:19 207.46.13.174] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-09 18:44:41 207.46.13.174] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-11 18:47:57 207.46.13.34] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-13 22:16:57 157.55.39.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-14 18:53:02 2.138.38.248] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-16 14:12:03 207.46.13.121] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-18 16:44:01 40.77.167.73] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-19 06:48:45 104.131.1.44] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-19 07:02:15 104.131.1.44] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-23 17:02:15 157.55.39.89] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-24 23:14:33 40.77.167.35] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-26 16:10:37 207.46.13.8] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-29 02:17:21 207.46.13.8] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-30 05:55:42 162.243.126.220] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2016-12-31 12:41:48 40.77.167.83] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-01 07:18:26 157.55.39.243] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-01 16:35:00 207.46.13.215] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-06 09:42:16 40.77.167.71] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-07 11:19:49 207.46.13.156] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-08 19:00:14 163.172.64.250] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-08 23:14:29 104.236.11.24] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-08 23:23:45 104.236.11.24] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-09 14:20:03 207.46.13.156] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-10 08:47:35 40.77.167.9] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-16 03:24:04 163.172.66.38] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-18 18:29:24 104.131.23.12] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-18 18:38:49 104.131.23.12] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-24 11:57:08 83.54.82.204] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-25 02:20:47 5.9.156.11] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-01-30 00:09:05 66.249.76.117] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-03 23:09:46 104.236.93.151] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-03 23:20:51 104.236.93.151] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-06 19:35:28 207.46.13.0] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-06 19:36:48 157.55.39.21] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-09 14:12:09 40.77.167.52] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-10 20:15:41 157.55.39.21] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-11 22:10:08 136.243.144.71] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-13 11:49:33 45.55.167.192] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-13 12:00:38 45.55.167.192] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-14 23:43:02 207.46.13.73] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-15 16:00:32 188.143.232.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-15 16:00:32 188.143.232.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-15 16:00:33 188.143.232.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-16 05:56:28 5.188.211.35] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-18 15:45:20 157.55.39.92] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-18 15:47:41 40.77.167.18] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 00:37:49 5.188.211.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 00:37:49 5.188.211.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 00:37:49 5.188.211.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 00:37:50 5.188.211.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 12:01:56 51.255.65.77] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 18:31:23 72.79.57.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-19 18:34:22 72.79.57.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-22 21:56:09 162.243.187.108] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-02-22 22:06:25 162.243.187.108] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-02-24 20:08:47 207.46.13.146] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-24 20:09:46 157.55.39.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-25 16:24:51 130.193.51.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-26 19:59:22 157.55.39.66] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-26 19:59:57 40.77.167.118] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-27 08:23:13 66.249.76.94] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-02-27 21:27:01 164.132.161.64] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-28 01:55:04 157.55.39.155] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-28 23:28:18 88.22.27.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-28 23:28:23 88.22.27.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-02-28 23:29:16 88.22.27.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-02 17:19:55 157.55.39.201] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-03 03:20:25 157.55.39.122] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-04 04:27:52 159.203.136.37] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-04 04:38:13 159.203.136.37] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-04 08:47:30 77.75.79.11] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-04 21:53:01 157.55.39.195] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-06 06:21:56 66.249.66.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-06 07:15:49 164.132.161.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-06 13:33:31 157.55.39.234] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-06 13:36:22 157.55.39.202] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-11 16:44:35 157.55.39.99] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-13 11:52:23 174.138.71.85] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-13 17:58:09 207.46.13.155] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-13 20:20:56 207.46.13.150] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-14 10:43:51 163.172.64.235] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-16 04:28:01 40.77.167.88] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-16 10:11:15 77.75.76.163] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-18 04:09:07 207.46.13.83] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-18 10:10:15 157.55.39.74] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-19 16:03:58 176.9.139.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-20 09:37:02 207.46.13.63] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-21 15:49:36 164.132.161.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-22 11:51:39 207.46.13.138] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-22 18:27:41 163.172.66.181] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-22 20:27:03 104.131.20.221] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-22 21:54:28 40.77.167.65] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-22 23:10:05 45.62.55.119] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-23 13:39:30 157.55.39.194] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-25 13:58:08 157.55.39.3] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-26 03:44:18 77.75.77.17] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-26 07:19:49 157.55.39.177] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-29 16:43:36 163.172.65.216] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-03-29 19:31:19 77.75.78.167] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-03-31 17:11:06 207.46.13.134] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-01 07:47:02 159.203.128.182] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-01 17:11:34 77.75.77.72] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-04 22:56:21 66.249.76.117] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-05 08:57:01 157.55.39.7] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-07 02:17:06 217.182.93.87] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-07 14:27:17 207.46.13.74] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-07 20:40:31 40.77.167.116] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-10 08:24:33 157.55.39.66] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-12 21:18:30 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-14 18:53:24 207.46.13.27] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-17 05:39:12 207.46.13.232] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-18 13:25:07 77.75.76.167] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-20 05:44:01 45.55.225.153] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-24 19:26:53 66.249.76.44] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-27 22:57:06 51.255.65.71] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-04-29 13:19:02 72.79.54.220] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-29 13:20:50 72.79.54.220] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-30 00:25:44 104.236.195.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-04-30 08:35:15 207.46.13.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-02 23:16:13 207.46.13.112] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-04 07:31:28 40.77.167.48] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-04 11:35:41 176.9.139.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-04 13:07:26 176.9.139.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-05 04:27:09 40.77.167.58] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-05 04:31:25 51.255.65.86] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-05 16:02:05 66.249.66.57] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-08 00:58:57 207.46.13.69] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-09 18:58:25 104.131.13.227] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-10 14:25:38 141.8.132.29] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-12 02:54:07 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-12 06:39:03 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-12 21:49:36 157.55.39.37] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-13 11:31:29 207.46.13.55] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-13 14:05:36 72.79.54.220] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-13 14:08:09 72.79.54.220] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-14 14:59:05 66.249.73.224] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-15 04:47:25 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-16 02:29:55 207.46.13.55] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-16 05:10:17 77.75.77.62] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-16 12:39:56 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-16 12:40:04 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-16 23:21:01 217.182.132.95] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-18 04:08:37 178.154.200.53] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-19 14:35:23 45.55.218.1] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-19 20:45:30 207.46.13.78] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-20 09:14:13 207.46.13.88] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-20 20:15:01 81.209.177.136] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-22 00:06:10 157.55.39.178] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-23 03:15:38 77.75.76.166] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-24 04:33:09 157.55.39.178] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-24 13:52:10 137.74.207.102] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-26 02:16:23 157.55.39.5] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-27 19:35:58 207.46.13.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-27 23:39:26 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-28 14:11:10 207.46.13.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-05-28 17:58:21 62.138.14.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-28 18:13:56 62.138.14.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-28 18:14:25 62.138.14.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-28 18:14:53 62.138.14.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-28 18:15:21 62.138.14.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-28 18:15:49 62.138.14.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-29 10:44:11 45.55.133.158] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-05-31 01:47:02 157.55.39.83] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-01 00:37:54 207.46.13.131] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-03 22:38:11 157.55.39.42] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-04 02:11:56 157.55.39.132] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-05 23:01:21 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-05 23:03:13 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-06 13:34:00 66.249.76.115] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-08 06:38:44 159.203.107.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-08 09:13:37 157.55.39.89] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-09 10:01:51 157.55.39.122] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-10 08:25:21 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-10 11:52:26 178.154.200.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-11 01:43:05 207.46.13.118] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-14 01:12:29 157.55.39.187] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-14 05:05:51 217.182.132.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-16 05:43:51 157.55.39.203] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-18 02:58:57 104.236.221.118] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-18 15:29:27 66.249.64.13] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-21 00:41:39 207.46.13.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-21 18:02:05 178.154.200.53] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-21 22:25:49 217.182.132.60] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-24 04:27:18 77.75.77.62] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-25 10:09:06 157.55.39.106] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-26 05:59:26 157.55.39.106] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-06-27 23:49:12 45.55.219.49] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-06-30 23:42:23 207.46.13.38] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-01 05:52:08 157.55.39.199] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-03 04:58:23 40.77.167.3] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-04 04:49:54 40.77.167.41] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-04 19:32:12 164.132.170.131] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-06 04:33:44 176.9.139.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-06 05:55:28 157.55.39.196] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-06 13:00:37 207.46.13.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-07 02:16:18 207.46.13.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-07 21:54:19 104.236.195.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-09 02:32:29 207.46.13.35] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-09 19:55:45 207.46.13.42] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-12 13:50:04 157.55.39.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-12 16:57:02 51.255.65.96] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-15 01:30:05 157.55.39.19] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-17 01:49:57 157.55.39.173] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-17 19:11:14 45.55.67.157] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-19 00:38:59 207.46.13.155] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-20 09:43:45 40.77.167.62] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-21 17:42:58 66.249.79.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-23 11:37:57 157.55.39.146] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-23 17:11:59 157.55.39.146] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-24 07:24:21 157.55.39.147] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-27 16:19:35 159.203.86.14] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-28 04:41:58 157.55.39.203] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-07-29 00:56:19 164.132.161.13] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-29 09:41:27 66.249.73.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-29 17:30:15 66.249.76.117] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-07-30 06:02:43 157.55.39.176] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-04 14:47:38 66.249.76.117] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-05 14:16:48 95.108.213.16] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-05 16:48:51 40.77.167.25] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-06 15:59:06 40.77.167.25] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-06 16:04:40 104.131.173.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-07 10:46:51 40.77.167.25] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-09 08:57:46 40.77.167.25] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-09 20:28:32 40.77.167.131] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-11 09:53:22 157.55.39.196] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-13 11:29:55 157.55.39.5] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-14 04:05:15 217.182.132.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-15 19:13:28 207.46.13.72] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-15 19:13:53 40.77.167.73] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-16 15:07:24 107.22.52.86] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-16 16:12:08 104.131.115.203] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-18 14:46:24 77.75.78.168] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-21 08:05:59 207.46.13.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-21 08:06:36 207.46.13.183] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-21 21:05:23 157.55.39.164] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-21 21:29:11 118.140.38.6] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-26 12:14:28 77.75.79.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-26 18:13:21 104.131.58.93] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-27 00:22:03 157.55.39.146] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-08-27 00:22:32 157.55.39.156] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-30 17:38:05 157.55.39.9] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-08-30 17:38:32 207.46.13.98] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-01 20:21:14 157.55.39.136] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-01 20:21:45 207.46.13.98] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-02 11:56:39 40.77.167.103] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-05 19:52:16 45.55.93.110] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-06 12:33:12 176.9.139.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-09 04:00:30 157.55.39.242] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-10 00:47:28 157.55.39.148] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-10 19:34:48 51.255.65.61] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-11 07:53:23 157.55.39.247] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-13 13:17:11 157.55.39.132] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-13 13:17:47 157.55.39.89] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-15 17:06:36 104.131.41.213] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-15 22:09:39 157.55.39.242] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-17 05:53:30 157.55.39.222] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-17 05:53:44 157.55.39.90] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-18 15:45:06 100.35.47.77] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-18 15:46:47 100.35.47.77] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-20 00:48:54 40.77.167.89] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-20 00:48:58 157.55.39.236] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-21 03:37:14 95.108.213.16] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-22 01:12:43 164.132.162.154] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-22 16:54:05 87.250.224.215] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-23 21:03:27 207.46.13.18] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-24 07:39:04 157.55.39.182] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-25 15:27:57 45.55.132.69] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-26 04:54:41 40.77.167.68] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-09-27 08:01:54 217.182.94.191] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-09-30 17:33:43 157.55.39.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-02 18:04:51 207.46.13.151] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-04 00:13:22 207.46.13.48] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-04 18:29:04 77.75.79.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-05 13:06:31 104.131.26.176] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-05 17:55:04 40.77.167.13] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-05 17:55:06 157.55.39.195] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-08 01:38:05 5.255.253.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-08 03:12:21 207.46.13.12] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-09 20:21:54 207.46.13.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-11 19:14:14 40.77.167.66] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-11 19:14:14 207.46.13.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-13 00:06:19 164.132.161.94] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-13 08:05:21 207.46.13.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-14 18:44:09 176.74.192.36] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-15 09:44:02 207.46.13.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-16 14:20:53 157.55.39.115] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-16 20:42:18 207.46.13.71] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-18 00:12:15 207.46.13.63] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-18 00:12:39 157.55.39.160] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-19 10:57:50 54.80.209.254] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-19 16:55:51 207.46.13.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-19 16:55:54 157.55.39.114] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-21 09:28:12 157.55.39.139] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-23 00:59:17 157.55.39.199] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-23 08:22:40 157.55.39.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-26 06:56:31 207.46.13.110] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-26 06:56:59 157.55.39.145] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-27 13:35:55 207.46.13.110] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-28 22:16:53 207.46.13.87] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-29 22:06:34 157.55.39.4] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-29 23:21:52 217.182.132.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-30 01:36:56 207.46.13.88] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-30 01:37:24 157.55.39.4] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-31 02:26:26 104.131.184.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-31 03:51:12 157.55.39.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-10-31 03:51:39 157.55.39.131] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-10-31 11:16:01 66.249.66.83] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-01 00:45:53 157.55.39.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-01 21:59:17 207.46.13.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-01 21:59:56 157.55.39.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-03 08:39:53 157.55.39.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-03 08:40:33 207.46.13.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-03 18:46:07 66.249.66.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-04 21:07:45 207.46.13.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-04 21:09:05 157.55.39.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-05 22:37:51 176.9.139.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-06 04:06:44 157.55.39.243] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-06 04:06:50 207.46.13.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-07 12:23:20 207.46.13.174] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-07 12:24:27 40.77.167.129] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-07 16:40:27 40.77.167.129] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-08 19:49:05 207.46.13.174] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-09 22:01:37 104.131.189.138] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-10 03:26:49 157.55.39.139] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-10 21:38:03 157.55.39.73] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-11 15:59:33 207.46.13.103] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-12 05:38:51 157.55.39.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-12 21:34:04 207.46.13.103] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-13 11:20:42 40.77.167.14] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-14 01:30:12 207.46.13.103] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-14 14:26:26 40.77.167.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-15 08:02:25 207.46.13.103] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-16 06:12:42 207.46.13.129] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-16 15:57:33 88.5.185.248] 
+Unknown Tour (250)<pre>#0 /home/slowwine/public_html/index.php(101): q23swRegion->show(0)
+#1 {main}</pre>
+[2017-11-16 15:57:45 88.5.185.248] 
+Unknown Tour (250)<pre>#0 /home/slowwine/public_html/index.php(101): q23swRegion->show(0)
+#1 {main}</pre>
+[2017-11-16 15:57:48 88.5.185.248] 
+Unknown Tour (250)<pre>#0 /home/slowwine/public_html/index.php(101): q23swRegion->show(0)
+#1 {main}</pre>
+[2017-11-18 06:21:02 69.30.226.234] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-18 16:04:37 77.75.76.161] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-18 19:20:14 157.55.39.161] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-20 03:12:14 207.46.13.125] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-21 05:48:46 164.132.161.65] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-22 07:34:05 157.55.39.41] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-23 01:06:44 40.77.167.36] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-23 05:48:06 77.75.77.36] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-23 17:23:47 207.46.13.77] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-26 03:46:24 77.75.77.109] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-26 09:39:51 157.55.39.204] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-26 23:51:36 207.46.13.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-27 08:01:26 207.46.13.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-27 15:22:56 157.55.39.145] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-28 07:40:52 207.46.13.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-29 01:50:40 157.55.39.238] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-29 18:29:12 207.46.13.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-11-30 11:39:42 157.55.39.82] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-30 17:23:28 88.3.175.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-30 17:23:40 88.3.175.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-30 17:36:37 128.30.52.73] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-30 17:36:38 88.3.175.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-11-30 17:36:39 128.30.52.64] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-02 06:36:17 157.55.39.210] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-03 01:03:32 40.77.167.29] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-04 10:46:39 40.77.167.16] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-06 02:18:46 207.46.13.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-06 05:52:35 164.132.161.61] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-06 19:56:55 157.55.39.189] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-06 20:28:39 157.55.39.189] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-08 07:30:47 157.55.39.189] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-09 02:35:37 157.55.39.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-10 21:14:45 157.55.39.141] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-12 16:59:51 157.55.39.141] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-14 07:04:29 157.55.39.69] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-18 20:41:05 40.77.167.6] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2017-12-18 20:41:27 40.77.167.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-22 15:41:42 157.55.39.240] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-23 23:08:50 54.36.148.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-26 04:37:12 207.46.13.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2017-12-29 22:38:06 77.75.78.167] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-01 06:20:38 207.46.13.108] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-01 06:20:45 157.55.39.182] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-02 19:09:13 207.46.13.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-04 12:57:32 157.55.39.45] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-04 12:57:54 207.46.13.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-07 21:19:34 40.77.167.91] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-07 21:19:44 157.55.39.106] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-09 18:36:04 207.46.13.99] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-09 18:36:05 207.46.13.169] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-10 19:15:20 54.36.148.134] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-11 03:48:16 77.75.76.170] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-12 01:22:35 157.55.39.243] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-12 01:22:36 157.55.39.243] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-13 22:48:42 207.46.13.124] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-17 17:25:22 207.46.13.49] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-17 17:25:42 157.55.39.154] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-20 03:01:09 77.75.77.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-20 13:45:52 157.55.39.69] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-22 12:01:18 62.210.247.93] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-24 05:21:11 207.46.13.161] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-24 05:21:28 207.46.13.162] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-26 05:40:44 207.46.13.161] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-01-26 05:41:24 157.55.39.95] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-28 04:52:56 157.55.39.95] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-01-30 14:24:44 54.36.148.108] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-01 08:26:16 207.46.13.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-07 16:54:20 40.77.167.106] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-07 16:54:33 40.77.167.27] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-02-11 16:00:39 157.55.39.91] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-13 17:42:39 157.55.39.249] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-13 17:43:11 207.46.13.181] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-02-15 00:45:46 54.36.148.80] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-02-15 09:23:32 207.46.13.69] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-17 07:28:48 207.46.13.111] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-21 16:27:25 207.46.13.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-23 17:27:57 207.46.13.60] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-02-23 17:28:20 207.46.13.126] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-02-25 17:41:41 77.75.78.169] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-03 10:14:22 77.75.79.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-08 19:18:49 207.46.13.50] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-08 19:19:27 157.55.39.105] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-09 05:30:45 54.36.148.158] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-10 20:18:47 157.55.39.196] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-10 20:19:10 157.55.39.191] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-12 16:43:31 157.55.39.44] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-12 16:44:23 207.46.13.171] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-14 19:17:27 5.255.253.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-16 09:45:07 157.55.39.125] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-16 09:45:42 207.46.13.145] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-19 05:59:21 163.172.67.146] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-21 16:41:41 54.36.148.224] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-23 12:01:38 54.92.174.251] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-24 07:21:23 157.55.39.114] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-26 09:09:42 157.55.39.215] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-26 09:10:10 157.55.39.65] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-29 15:08:27 77.75.78.165] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-03-31 14:46:39 157.55.39.252] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-03-31 14:46:58 207.46.13.2] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-02 15:53:22 157.55.39.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-02 15:53:52 40.77.167.125] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-08 06:25:27 157.55.39.78] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-12 08:09:29 207.46.13.13] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-12 08:10:02 157.55.39.182] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-14 09:58:55 157.55.39.203] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-14 10:00:38 207.46.13.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-16 23:27:25 54.36.148.235] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-18 22:18:36 77.75.78.168] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-18 22:41:04 157.55.39.111] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-18 22:46:14 40.77.167.80] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-20 23:36:55 40.77.167.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-20 23:37:24 157.55.39.11] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-25 03:00:04 157.55.39.240] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-25 03:00:11 157.55.39.241] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-04-27 20:09:25 54.36.148.194] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-04-30 23:23:32 207.46.13.156] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-02 21:53:12 207.46.13.186] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-05-02 21:53:18 207.46.13.175] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-03 12:57:22 5.255.253.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-06 20:22:52 40.77.167.65] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-06 20:23:34 157.55.39.166] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-05-08 09:28:40 5.255.253.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-08 20:54:11 207.46.13.214] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-05-08 20:55:00 207.46.13.215] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-17 03:14:43 207.46.13.123] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-21 07:15:17 54.159.85.193] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-22 13:45:44 54.36.148.233] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-05-24 09:56:45 207.46.13.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-05-26 07:37:21 157.55.39.177] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-05-26 07:38:10 157.55.39.178] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-05-30 14:17:09 77.75.77.17] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-06 07:32:59 207.46.13.134] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-06 18:40:34 54.36.148.109] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-07 12:25:15 77.75.76.162] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-10 12:23:39 207.46.13.228] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-14 02:00:56 54.36.148.117] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-19 04:31:18 142.0.205.84] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-21 20:11:33 54.36.148.141] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-22 20:47:54 40.77.167.148] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-06-22 20:47:55 40.77.167.148] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-23 01:38:43 157.55.39.153] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-25 10:38:34 157.55.39.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-06-25 10:39:22 40.77.167.92] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-06-28 01:20:49 54.36.149.13] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-06-29 20:07:38 54.36.148.48] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-05 00:36:30 77.75.76.171] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-05 15:32:40 54.36.148.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-07-08 02:37:48 54.36.149.61] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-08 18:29:51 207.46.13.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-07-13 11:27:09 54.36.148.38] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-07-17 01:59:12 157.55.39.242] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-18 10:58:59 157.55.39.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-18 10:59:16 207.46.13.102] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-07-20 15:59:52 157.55.39.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-22 15:12:34 157.55.39.190] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-07-22 15:14:09 207.46.13.210] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-07-31 21:20:23 157.55.39.88] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-01 19:38:10 207.46.13.133] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-02 04:48:16 40.77.167.138] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-03 22:50:33 40.77.167.123] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-04 00:02:59 40.77.167.138] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-04 20:54:29 40.77.167.138] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-08 15:25:29 40.77.167.96] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-09 15:23:48 157.55.39.182] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-10 10:33:38 54.36.148.22] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-11 18:19:43 207.46.13.82] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-12 12:12:06 40.77.167.99] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-16 13:46:34 207.46.13.139] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-16 19:51:14 54.36.148.255] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-18 18:22:44 207.46.13.133] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-24 23:59:11 40.77.167.65] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-25 12:23:21 46.53.210.104] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-08-26 15:03:00 157.55.39.201] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-29 06:20:31 207.46.13.252] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-08-31 02:25:14 77.75.77.36] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-02 07:12:04 66.249.70.3] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-02 21:00:30 37.215.188.37] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-05 13:17:42 77.75.77.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-06 02:13:18 157.55.39.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-13 08:30:53 40.77.167.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-13 21:57:56 40.77.167.109] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-14 00:14:30 40.77.167.95] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-14 06:51:31 40.77.167.109] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-15 04:16:31 207.46.13.39] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-17 00:25:53 207.46.13.216] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-18 20:18:44 54.162.159.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-19 01:00:04 157.55.39.125] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-21 07:24:18 54.36.148.122] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-22 04:54:04 207.46.13.178] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-23 05:55:11 207.46.13.19] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-23 21:57:25 207.46.13.19] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-24 23:49:54 40.77.167.179] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-25 02:14:26 40.77.167.179] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-09-25 04:09:34 207.46.13.19] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-27 18:35:41 40.77.167.180] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-09-29 12:33:51 66.249.64.34] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-01 09:14:19 157.55.39.83] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-03 12:12:11 54.36.148.26] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-04 03:44:58 207.46.13.148] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-04 15:11:36 207.46.13.94] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-05 07:45:02 207.46.13.221] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-06 08:11:42 40.77.167.173] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-06 19:34:36 40.77.167.95] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-07 21:19:54 77.75.77.62] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-12 01:48:54 40.77.167.44] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-14 21:44:48 207.46.13.111] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-15 21:24:29 207.46.13.79] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-20 03:34:52 54.38.253.233] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-23 22:18:34 40.77.167.20] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-25 06:17:48 207.46.13.128] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-26 09:05:32 207.46.13.128] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-10-27 10:47:35 54.36.148.179] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-30 02:57:27 157.55.39.253] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-10-30 11:44:24 188.84.155.19] 
+Unknown Guide. (105)<pre>#0 /home/slowwine/public_html/index.php(101): q23swGuide->show(0)
+#1 {main}</pre>
+[2018-10-30 11:44:31 188.84.155.19] 
+Unknown Guide. (105)<pre>#0 /home/slowwine/public_html/index.php(101): q23swGuide->show(0)
+#1 {main}</pre>
+[2018-10-30 11:44:39 188.84.155.19] 
+Unknown Guide. (105)<pre>#0 /home/slowwine/public_html/index.php(101): q23swGuide->show(0)
+#1 {main}</pre>
+[2018-10-31 21:36:33 157.55.39.67] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-01 01:16:50 207.46.13.172] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-01 14:10:50 207.46.13.205] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-02 04:50:06 157.55.39.107] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-04 00:41:36 157.55.39.99] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-06 17:10:30 54.36.149.20] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-06 19:40:29 157.55.39.254] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-06 23:43:24 66.249.66.29] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-07 08:26:15 66.249.66.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-07 17:25:06 66.249.66.30] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-10 05:32:40 157.55.39.207] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-10 22:38:25 157.55.39.228] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-11 03:05:23 157.55.39.228] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-11 07:41:30 157.55.39.207] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-14 00:48:14 40.77.167.16] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-16 00:58:11 54.226.209.201] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-19 01:48:46 207.46.13.75] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-11-20 00:21:34 157.55.39.243] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-23 06:42:31 40.77.167.132] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-11-30 13:56:53 207.46.13.84] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-01 13:24:04 54.36.148.42] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-01 14:34:09 157.55.39.251] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-03 07:29:35 54.36.148.80] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-04 13:17:07 77.75.79.95] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-07 04:07:41 157.55.39.120] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-08 19:30:57 207.46.13.212] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-08 19:31:49 207.46.13.185] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-11 03:47:20 207.46.13.36] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-12 14:18:17 207.46.13.91] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-13 12:27:42 207.46.13.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-13 18:00:25 77.75.78.166] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-13 18:23:31 77.75.78.166] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-15 13:36:50 54.36.149.41] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-17 21:16:22 51.75.14.187] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-19 06:03:55 40.77.167.40] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-19 23:33:36 40.77.167.75] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-22 17:04:54 207.46.13.156] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-23 18:27:41 46.229.168.131] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-26 08:32:52 40.77.167.118] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-26 08:34:09 157.55.39.237] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-28 22:25:39 157.55.39.250] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-31 04:30:37 207.46.13.156] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-31 07:10:31 54.36.148.20] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2018-12-31 22:25:13 207.46.13.56] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2018-12-31 22:28:03 40.77.167.75] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-01 03:07:09 207.46.13.110] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-05 10:34:41 207.46.13.16] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-05 18:01:47 54.36.149.106] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-05 22:49:51 207.46.13.87] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-06 18:06:19 46.229.168.131] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-07 14:51:28 157.55.39.223] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-07 14:51:29 207.46.13.188] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-09 05:22:15 207.46.13.141] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-10 01:03:57 40.77.167.178] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-11 11:29:10 54.36.148.88] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-11 13:50:23 54.36.148.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-12 04:38:24 157.55.39.244] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-12 04:39:01 40.77.167.159] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-12 07:52:43 77.75.79.17] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-13 00:16:21 40.77.167.198] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-15 00:22:27 77.75.76.160] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-16 23:56:13 77.75.76.167] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-17 12:47:32 3.80.32.33] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-17 16:18:22 54.36.148.57] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-17 22:29:26 157.55.39.213] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-18 20:12:08 77.75.78.163] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-19 07:25:13 157.55.39.52] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-21 02:26:53 207.46.13.32] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-26 12:27:15 40.77.167.123] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-27 03:19:06 157.55.39.115] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-29 03:27:39 40.77.167.160] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-30 11:30:54 40.77.167.138] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-01-30 14:18:08 77.75.77.36] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-01-30 23:44:34 54.36.149.27] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-03 03:56:15 51.75.4.103] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-03 23:25:25 77.75.79.17] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-04 01:50:24 207.46.13.25] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-05 02:44:17 40.77.167.205] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-05 13:12:58 157.55.39.92] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-07 00:14:10 40.77.167.130] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-10 15:41:31 77.75.76.164] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-11 07:01:30 40.77.167.100] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-12 07:43:38 207.46.13.49] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-12 20:14:55 54.36.149.81] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-13 00:40:22 40.77.167.142] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-13 01:18:19 157.55.39.8] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-15 03:26:11 77.75.78.161] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-19 05:32:18 157.55.39.201] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-19 07:42:21 40.77.167.128] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-19 20:06:28 77.75.78.169] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-19 21:39:35 207.46.13.47] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-19 23:46:58 40.77.167.15] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-24 21:29:31 207.46.13.25] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-25 17:39:41 207.46.13.191] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-26 20:28:53 77.75.77.109] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-02-26 22:50:37 40.77.167.80] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-02-27 01:39:47 40.77.167.18] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-01 03:18:58 157.55.39.182] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-02 12:26:50 157.55.39.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-05 13:04:29 54.36.148.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-06 03:18:48 40.77.167.198] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-07 22:12:41 207.46.13.23] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-08 11:33:01 54.36.148.64] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-11 06:00:59 207.46.13.179] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-11 19:48:51 40.77.167.133] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-13 16:36:39 40.77.167.43] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-14 02:56:19 207.46.13.154] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-19 05:30:02 40.77.167.167] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-19 20:00:30 207.46.13.75] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-03-21 07:34:03 157.55.39.173] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-22 03:22:39 40.77.167.109] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-23 06:54:02 157.55.39.51] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-23 14:31:03 34.229.97.16] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-28 15:41:51 77.75.78.168] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-03-28 19:09:48 40.77.167.164] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-01 03:14:10 40.77.167.11] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-06 02:16:50 157.55.39.215] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-06 09:21:14 157.55.39.229] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-06 19:49:53 157.55.39.144] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-06 23:37:23 157.55.39.144] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-07 08:14:17 77.75.76.166] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-07 18:37:00 54.36.149.74] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-08 22:38:23 54.36.150.6] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-09 02:04:30 207.46.13.88] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-09 14:30:53 157.55.39.189] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-10 06:55:37 157.55.39.203] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-10 11:31:19 157.55.39.249] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-15 20:24:41 207.46.13.46] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-22 06:54:13 40.77.167.101] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-23 06:17:27 54.38.252.149] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-23 09:10:49 40.77.167.102] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(0)
+#1 {main}</pre>
+[2019-04-27 00:09:41 207.46.13.233] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-27 03:49:52 40.77.167.54] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-27 10:14:18 207.46.13.59] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>
+[2019-04-28 20:53:06 157.55.39.63] 
+Unknown Tour (451)<pre>#0 /home/slowwine/public_html/index.php(101): q23swTour->show(-23)
+#1 {main}</pre>

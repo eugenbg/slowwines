@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Impulse Press 1.4.1 Instructions</title>
+
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+     <link rel="shortcut icon" href="http://impulsepress.twoimpulse.com/wp-content/themes/impulse-press/favicon.png"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        Impulse Press 1.4.1
+      </a>
+    </div>
+    <a href="http://impulsepress.twoimpulse.com" target="_blank" class="btn btn-success navbar-btn navbar-right">Demo</a>
+  </div>
+</nav>
+
+<div class="container">
+
+<div class="row">
+    <div class="col-md-3 col-lg-3">
+        <div class="sidebar hidden-print affix" role="complementary">
+            <ul id="toc" class="nav">
+                <li><a href="#install">Installation</a></li>
+                <li><a href="#templates">Home page templates</a></li>
+                <li><a href="#portfolio">Portfolio Galleries</a></li>
+                <li><a href="#boostrap-shortcode">Shortcodes</a></li>
+                <li><a href="#options">Options</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="col-md-9 col-lg-9" role="main">
+    <div id="top">    
+
+    <h1>Documentation</h1>   
+
+    </div>
+
+<hr>
+
+    <h2>Overview</h2>
+
+    <p class="info">Thank you for purchasing Impulse Press!</p>
+
+    <p>Impulse Press is WordPress starter theme based on Twitter Bootstrap. Here you will find instructions for
+        installation and customization of the theme.</p>
+
+<hr>
+	<div class="title-section">
+    <h2 id="install">Installation - <a href="#top">Top</a></h2>
+	</div>
+    
+    <h3><b>Creating a Child Theme</b></h3>
+    Creating a Theme with ImpulsePress is rather straightforward. We recommend that a child theme is created, so
+    that Theme updates don't affect your website. Information about creating child themes with WordPress can be
+    found <a href="http://codex.wordpress.org/Child_Themes">here.</a>
+    <ul>
+        <li>Make an <a href="http://codex.wordpress.org/Installing_WordPress">installation </a>of WordPress and
+            set it up. Version 4.0 of WordPress is used in this tutorial
+        </li>
+        <li>Create a directory under the <em>themes </em>directory of your WordPress installation and call it
+            '<i>impulsepress-child'</i></li>
+        <li><i></i>Create a <em>style.css </em>file in the root directory of your child theme. Here's an
+            example:
+        </li>
+        <li><i></i>Go to to the administration page of your site and select Appearance-&gt;Themes. Activate your
+            child theme.
+        </li>
+    </ul>
+                <pre class="lang:css decode:true">/*
+                 Theme Name:   Impulse Press Child
+                 Theme URI:    http://www.twoimpulse.com/support/impulse-press
+                 Description:  Impulse Press Child Theme
+                 Author:       Two Impulse
+                 Author URI:   http://www.twoimpulse.com
+                 Template:     impulsepress
+                 Version:      1.0.0
+                 Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+                 Text Domain:  impulsepress-child
+                */
+
+                @import url("../impulsepress/style.css");
+
+                /* =Theme customization starts here
+                -------------------------------------------------------------- */</pre>
+    <h3><b>Importing Sample Content</b></h3>
+    To have an overview on how the theme works and the page templates look like, we suggest that import the demo
+    content. In the Impulse Press theme directory, you will find a directory called "<em>demo-content</em>"
+    <ul>
+        <li>Go to the administration part and select Tools-&gt;Import</li>
+        <li>Install and activate the WordPress Importer plugin</li>
+    </ul>
+
+    <p>
+    <img alt="import content" src="images/import-content.jpg" height="100%" width="100%" />
+    </p>
+
+
+
+    <ul>
+        <li>Click on "Browse" and select the <em>impulsepress1.4democontent.xml</em> file from the
+            "demo-content" directory. Click "Upload File and Import". On the next page select the user you
+            would like to assign to your posts as an author and click submit. This will import some demo
+            content.
+        </li>
+        <li>Click on the "Pages" on the administration. You will see many pages that demonstrate the use of all
+            the page templates and other features of Impulse Press.
+        </li>
+    </ul>
+
+        <p>
+    <img alt="sample pages" src="images/sample-pages.jpg"  height="100%" width="100%" />
+    </p>
+
+    <ul>
+        <li> Now we are going to import some widget content. To do this, you need to install and activate the <a
+                href="http://wordpress.org/plugins/widget-importer-exporter/">Widget Importer and Exporter
+            Plugin</a></li>
+        <li>Go to Tools-&gt;Widget Importer &amp; Exporter. Click "Choose File" and select the <em>impulsepress-wordpress-widgets </em>file
+            from the demo content directory. Click "Import Widgets". Some sample content for the Theme's widgets
+            will be imported.
+        </li>
+        <li>Select Tools-&gt;Reading. Select "A static page", "Home Slider" as the front page and "Blog" as the post
+            page. Click "Save Changes".
+        </li>
+    </ul>
+
+        <p>
+    <img alt="setting default pages" src="images/setting-default-pages.jpg" height="100%" width="100%" />
+    </p>
+
+	
+    <ul>
+        <li>Got Appearance -&gt; Menus. Click the "Manage Locations" on the top. Select "Menu" for the Top Menu
+            and "Footer Menu" for the Footer Menu. Press "Save Changes".
+        </li>
+    </ul>
+    <p>
+    <img alt="menu select" src="images/menu-select.jpg" height="100%" width="100%" />
+    </p>
+    <ul>
+        <li>Go to Appearance - Widgets. Open the "Hero Landing" widget on the right and remove all the widgets,
+            except for the last one ("Text").
+        </li>
+        
+    </ul>
+	<hr>
+     <ul>
+        <li> Now we are going to import the Revolution Slider content. To do this, you need to install and activate the <a
+                href="http://themepunch.com/revolution/">Revolution Slider Plugin</a></li>
+        <li>Unzip slider-revolution-responsive-wordpress.zip from Impulse Press Package, go to Plugins-&gt;Add New. Click "Upload plugin", select revslider.zip and upload it.</li>
+        <li>Activate the plugin and go to plugin page, click on "Import Slider" and browse to the demo content directory and select slider-impulse-press.zip. 
+    </ul>
+     
+
+<hr>
+	<div class="title-section">
+    <h2 id="templates">The Homepage Templates - <a href="#top">Top</a></h2>
+    </div>
+    Impulse Press comes with a set of templates for basic pages and home pages. In this section we will show how to use
+    them.
+
+    The home page templates are built using WordPress widgets and have no "content". The real content is inside the
+    widgets. We provide some examples, but you can customize and enter any type of content.
+<hr>
+    <h3><b>Home Slider</b></h3>
+    The "Home Slider" page template contains one widget on the top: the "Hero Slider". In the example content, we added the Revolution Slider widget. Below the top widget, there are three widgets in three columns "Main One", "Main Two" and "Main Three".
+
+    <img alt="home slider" src="images/home-slider.jpg"  height="100%" width="100%" />
+    <p>Below the three main widgets, there are three "Featurette widgets". You can edit them on widgets "Featurette One", "Featurette Two" and "Featurette Three".</p>
+
+    <img alt="home-slider-featurettes" src="images/home-slider-featurettes.jpg" height="100%" width="100%" />
+<hr>
+    <h3><b>Home Jumbotron</b></h3>
+    <p>The "Home Jumbotron" template contains a widget on the top: the "Hero Jumbotron" widget. We added a Bootstrap
+    Jumbotron as a demonstration. Below that, the "Main 1", "Main 2" and "Main 3" widgets are place in three columns,
+    like in the previous page template.</p>
+
+    <img alt="home jumbotron" src="images/home-jumbotron.jpg"  height="100%" width="100%"/>
+<hr>
+    <h3><b>Home Parallax</b></h3>
+        <p>This page template allows you to add background images to the sections, and add a parallax effect to them.
+
+    The template also contains a widget on the top: the "Home Parallax" widget. Below, the "Main 1", "Main 2" and
+    "Main 3" <span style="line-height: 1.5em;">widgets are placed.</span>
+
+   </p>
+    <img alt="home parallax" src="images/home-parallax.jpg"  height="100%" width="100%"/>
+        <p>
+
+    Below the three main widgets, there is the "Home Gallery" widget. As a demonstration, we added a Bootstrap carousel,
+    but you could put any content there.
+
+    Below the gallery, there are four widgets: "Sections" - taking the full width of the page - and three widgets in
+    three columns: "Section 1", "Section 2" and "Section 3".
+    </p>
+        <p>
+    <img alt="sections parallax" src="images/sections-parallax.jpg"  height="100%" width="100%"/>
+    </p>
+        <p>
+    <h3><b>Adding background Pictures and Configuring the parallax effects</b></h3>
+    The home parallax template allows you to add a background picture to each one of the template's divs. You can also
+    configure the parallax effect speed.
+   </p>
+        <p>
+    <img alt="config parallax" src="images/parallax-config.jpg" height="100%" width="100%"  />
+     </p>
+
+<hr>
+	<div class="title-section">
+    <h2 id="portfolio">The Portfolio Galleries- <a href="#top">Top</a></h2>
+	</div>
+        <p><b>Isotope Gallery</b></p>
+        <p>Impulse Press comes with a Project post type that allows you to showcase your Portfolio.
+
+        Create a Page and select the page template "Portfolio Page", click save and then it will show the options to display the portolio. Select one of the options: One Column, Two Column or Three Column.
+        Now you have created the page you have to create the portfolio entries, you need to go to your administration area and select "Projects" from you menu. In this page, you will se a list of post of the "Project" type. Each post will correspond to an entry in your portfolio.</span>
+
+        </p>
+        <p>
+        <img alt="projects" src="images/portfolio-list.jpg"  height="100%" width="100%" />
+
+        </p>
+        <p>
+
+        In the post edit screen, you can set the featured image and assign tags to your post.
+
+       </p>
+        <p>
+
+        <img alt="home parallax" src="images/portfolio-edit.jpg"  height="100%" width="100%" />
+
+       </p>
+        <p>
+
+		Your projects will appear organized by tag, each one showing the featured image.
+
+        </p>
+        <p>
+        <img alt="home parallax" src="images/portfolio-gallery.jpg"  height="100%" width="100%" />
+
+       </p>
+<hr>
+		<p><b>Masonry Gallery</b></p>
+        <p>Create a page and click "add media". Create Gallery and select or upload your photos, then click on bottom right "create a new gallery".</p>
+        <p><img alt="home parallax" src="images/gallery-masonry.jpg"  height="100%" width="100%" /></p>
+        <p>In the right sidebar you the options to choose the link, number of columns and the random order.</p>
+		<p><img alt="home parallax" src="images/gallery-masonry-options.jpg"  height="100%" width="100%" /></p>
+        <p>Save changes and it's done.
+<hr>
+	<div class="title-section">
+    <h2 id="boostrap-shortcode">The Boostrap Shortcodes - <a href="#top">Top</a></h2>
+    </div>
+
+         <p>Impulse Press comes with support for shortcodes for Twitter Bootstrap layouts, components and javascript.
+
+        Using the shortcodes for Bootstrap components is very simple. After activating the Impulse Press theme, you will see the icon in the WordPress post editor bar. If you click the arrow, you will see a list of the available shortcodes.</p>
+
+        <img alt="shortcodes" src="images/shortcodes.jpg"  height="100%" width="100%" />
+
+        <p>Impulse Press provides shortcodes for many Twitter Bootstrap features and components like the layout grid, alerts, buttons, glyphicons, etc.
+
+        The Impulse Press <a href="http://impulsepress.twoimpulse.com/features/bootstrap-shortcodes">DEMO website </a>showcases most of them.</p>
+
+        
+
+<hr>
+	<div class="title-section">
+    <h2 id="options">The Impulse Press Options - <a href="#top">Top</a></h2>
+    </div>
+
+     <p>Impulse Press has many options for customizing your theme and a powerful options panel that you can use to configure your theme. This framework is easily extendable so that you can easily add options to your theme.</p>
+<hr>
+    <h3>General Options</h3>
+    <p>In the general options tab, you can configure the logo of your login window, your favicon and to enable or disable breadcrumbs for your whole site.</p>
+
+    <img alt="Impulse Press Options Panel" src="images/general-options.jpg"  height="100%" width="100%" />
+<hr>
+    <h3>Header Options</h3>
+    <p>In the header options section, you can configure whether the navbar is fixed, your website logo, enable or disable the search bar and social icons on your top navigation bar.</p>
+
+    <img alt="ip-header-options" src="images/header-options.jpg" height="100%" width="100%" />
+
+<hr>
+    <h3>Footer Options</h3>
+    <p>Similarly to the header options, you can enable or disable the displaying of the social icons on your footer. You can also add a custom Copyright and "Powered By" text. </p>
+
+    <img alt="ip-footer-options" src="images/footer-options.jpg" height="100%" width="100%" />
+<hr>
+    <h3>Styling</h3>
+    <p>Impulse Press allows you to customize the look and feel of your theme completely. You can include your own CSS theme in a directory (css-themes). Choose the Google font to use on your website.</p>
+
+    <img alt="ip-styling-options" src="images/styling-options.jpg" height="100%" width="100%"  />
+<hr>
+    <h3>Blog</h3>
+    <p>In the blog options, you can choose to display the blog metadata or not. You can also customize the text of the "read more" button.</p>
+
+    <img alt="ip-blog-options" src="images/blog-options.jpg" height="100%" width="100%"  />
+<hr>
+    <h3>Social</h3>
+    <p>In this section, you can configure the links to various social media accounts.</p>
+
+    <img alt="ip-social-options" src="images/social-options.jpg" height="100%" width="100%"  />
+<hr>
+    <h3>Tracking</h3>
+    <p>Here you can enter your custom tracking code for Google Analytics for example.    </p>
+
+    <img alt="ip-tracking-options" src="images/tracking-options.jpg" width="300" height="252" />
+<hr>
+    <h3>Options Backup</h3>
+    <p>This feature allows you to backup your options to a file.</p>
+
+    <img alt="ip-backup-options" src="images/backup-options.jpg" height="100%" width="100%"  />
+
+<hr>
+	<div class="title-section">
+    <h2 id="support">Support - <a href="#top">Top</a></h2>
+    </div>
+    <p>You can get support from the <a href="http://www.twoimpulse.com/support/category/impulse-press/">Impulse Press support site</a></p>
+
+
+<hr>
+    <p>Thank you again for your purchase and feel free to contact us with questions regarding the theme.</p>
+
+    <p><strong>Author - <a href="http://www.twoimpulse.com" target="_blank">Two Impulse</a></strong></p>
+<hr>
+    <p><a href="#top">Back To Top</a></p>
+<hr>   
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

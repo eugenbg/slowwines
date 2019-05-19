@@ -1,0 +1,312 @@
+[2015-04-15 17:12:26 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: andrew.makin@quantum23.com
+--> Recipient Name: Andrew Makin
+-> Terminate Debug.
+
+[2015-04-15 17:12:26 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:12:36 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2015-04-15 17:12:36 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:15:23 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: andrew.makin@quantum23.com
+--> Recipient Name: Unknown
+-> Terminate Debug.
+
+[2015-04-15 17:15:23 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:15:33 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2015-04-15 17:15:33 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:16:27 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: andrew.makin@quantum23.com
+--> Recipient Name: Andrew Makin
+-> Terminate Debug.
+
+[2015-04-15 17:16:27 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:16:37 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2015-04-15 17:16:37 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:18:59 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: andrew.makin@quantum23.com
+--> Recipient Name: Unknown
+-> Terminate Debug.
+
+[2015-04-15 17:18:59 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:19:09 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2015-04-15 17:19:09 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:21:28 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: andrew.makin@quantum23.com
+--> Recipient Name: Andrew Makin
+-> Terminate Debug.
+
+[2015-04-15 17:21:28 217.127.147.178] SMTP connect() failed.
+[2015-04-15 17:21:38 217.127.147.178] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2015-04-15 17:21:38 217.127.147.178] SMTP connect() failed.
+[2017-01-15 19:27:20 81.155.239.187] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: kate.matt@outlook.com
+--> Recipient Name: Kate
+-> Terminate Debug.
+
+[2017-01-15 19:27:20 81.155.239.187] SMTP Error: data not accepted.
+[2017-01-15 19:27:31 81.155.239.187] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2017-01-15 19:27:31 81.155.239.187] SMTP Error: data not accepted.
+[2017-01-15 19:27:42 81.155.239.187] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: kate.matt@outlook.com
+--> Recipient Name: Kate
+-> Terminate Debug.
+
+[2017-01-15 19:27:42 81.155.239.187] SMTP Error: data not accepted.
+[2017-01-15 19:27:53 81.155.239.187] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2017-01-15 19:27:53 81.155.239.187] SMTP Error: data not accepted.
+[2017-01-15 19:28:24 81.155.239.187] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: kate.matt@outlook.com
+--> Recipient Name: Kate
+-> Terminate Debug.
+
+[2017-01-15 19:28:24 81.155.239.187] SMTP Error: data not accepted.
+[2017-01-15 19:29:10 81.155.239.187] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2017-01-15 19:29:10 81.155.239.187] SMTP Error: data not accepted.
+[2019-05-05 14:24:47 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: eugen.bogdanovich@gmail.com
+--> Recipient Name: asdasd
+-> Terminate Debug.
+
+[2019-05-05 14:24:47 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:25:08 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2019-05-05 14:25:08 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:25:28 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: eugen.bogdanovich@gmail.com
+--> Recipient Name: asdasd
+-> Terminate Debug.
+
+[2019-05-05 14:25:28 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:25:48 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2019-05-05 14:25:48 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:27:13 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: eugen.bogdanovich@gmail.com
+--> Recipient Name: Евгений Богданович
+-> Terminate Debug.
+
+[2019-05-05 14:27:13 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:27:33 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2019-05-05 14:27:33 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:29:12 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: eugen.bogdanovich@gmail.com
+--> Recipient Name: Евгений Богданович
+-> Terminate Debug.
+
+[2019-05-05 14:29:12 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:29:32 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2019-05-05 14:29:32 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:33:12 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: eugen.bogdanovich@gmail.com
+--> Recipient Name: Евгений Богданович
+-> Terminate Debug.
+
+[2019-05-05 14:33:12 127.0.0.1] SMTP connect() failed.
+[2019-05-05 14:33:45 127.0.0.1] Message Send Failure:
+-> Start Debug.
+--> SMTP Host: mail.slowwines.net
+--> SMTP Usr: mailer@slowwines.net
+--> SMTP Pwd: 0pmsm9HMFuWK4Rdox4
+--> Company Email: info@slowwines.net
+--> Company Name: info@slowwines.net
+--> Recipient Email: info@slowwines.net
+--> Recipient Name: info@slowwines.net
+-> Terminate Debug.
+
+[2019-05-05 14:33:45 127.0.0.1] SMTP connect() failed.

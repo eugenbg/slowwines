@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>{variable.seo.title} | {variable.site.title} </title>
+		
+		<meta name="robots" content="index, follow, noodp" />
+		<meta name="description" content="{variable.seo.description}" />
+		<meta name="keywords" content="{variable.seo.keyword}" />
+		{variable.bing.verification}
+		{variable.google.verification}
+		{variable.pinterest.verification}
+		{variable.meta.designer}
+		{variable.meta.application}
+		{variable.meta.generator}
+
+		<link rel="original-source" href="" />
+		<link rel="canonical" href="{variable.seo.canonical}" />
+		<link rel="author" href="{variable.seo.author}" />
+		{variable.meta.human}
+
+		<meta property="og:locale" content="{variable.seo.og.locale}" />
+{variable.seo.og.locale.alternate}
+		<meta property="og:type" content="{variable.seo.og.type}" />
+		<meta property="og:title" content="{variable.seo.og.title}" />
+		<meta property="og:description" content="{variable.seo.description}" />
+		<meta property="og:url" content="{variable.seo.og.url}" />
+		<meta property="og:site_name" content="{variable.seo.og.site.name}" />
+		<meta property="og:image" content="{variable.seo.og.image}" />
+		<meta property="og:updated.time" content="{variable.seo.og.updated_time}" />
+		
+		<meta property="article:section" content="{variable.seo.article.section}" />
+		<meta property="article:published.time" content="{variable.seo.article.published.time}" />
+		<meta property="article:modified.time" content="{variable.seo.article.modified.time}" />
+		
+{variable.seo.link.alternate}
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="/thm/usr/img/favicon.ico" />
+				
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn"t work if you view the page via  -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->	
+		
+		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+		<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800">
+		<link type='text/css' rel='stylesheet' href='//fonts.googleapis.com/css?family=Oxygen:400,300,700'>
+		<link type='text/css' rel='stylesheet' href='//fonts.googleapis.com/css?family=Comfortaa:400,700,300'>
+		<!--link rel="stylesheet" type="text/css" href="/mn/?g=cntCSS" /-->
+
+		<link type="text/css" rel="stylesheet" href="/thm/usr/css/site.css" />
+		<link type="text/css" rel="stylesheet" href="/thm/usr/css/animate.css" />
+		<link type="text/css" rel="stylesheet" href="/inc/vndr/multiSelect/css/bootstrap-multiselect.css" />
+		<link type="text/css" rel="stylesheet" href="/inc/vndr/masterslider/style/masterslider.css" />
+		<link type="text/css" rel="stylesheet" href="/inc/vndr/masterslider/skins/default/style.css" />
+		<link type="text/css" rel="stylesheet" href="/inc/vndr/owlCarousel/owl.carousel.css" />
+
+		{variable.google.analytic}
+		{variable.google.tracking}
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+    <body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<a href="/" title=""><img class="logo img-responsive" src="/thm/usr/img/logo.png" alt="{variable.company.name}" /></a>
+					</div>
+					<div class="col-sm-8 info">
+						<button type="button" class="btn btn-custom btn-search" data-toggle="modal" data-target="#myModal1">
+							<i class="fa fa-search"></i> Search
+						</button>
+						<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">
+											<span aria-hidden="true">&times;</span>
+											<span class="sr-only">Close</span>
+										</button>
+										<h4 class="modal-title" id="myModalLabel">Search</h4>
+									</div>
+									<div class="modal-body">
+										{widget.form.search}
+									</div>
+								</div>
+							</div>							
+						</div>
+						{widget.contact.modal}
+						<div class="call-us">
+							<div class="btn-group">
+								<button type="button" class="btn btn-custom btn-call dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	<i class="fa fa-phone"></i> Call Us <span class="caret"></span>
+							  	</button>
+							  	<ul class="dropdown-menu">
+							    	<li>International: {variable.telephone.1}</li>
+							    	<li>Spain: {variable.telephone.2}</li>
+							    	<li>{variable.telephone.3}</li>
+							    	<li>{variable.telephone.4}</li>
+							  	</ul>
+							</div>							
+						</div>
+					</div>
+					{widget.navigation}
+				</div>
+			</div>
+		</header>
+		
+		<div id="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						{variable.image}
+						{widget.content}
+					</div>	
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<h4>{translate.footer.header.1}</h4>
+						{translate.footer.content.1}
+					</div>
+					<div class="col-sm-6 col-md-2 col-md-offset-1">
+						<h4>{translate.footer.header.4}</h4>
+						{translate.footer.content.4}
+					</div>
+					<div class="clearfix visible-xs visible-sm"></div>
+					<div class="col-sm-6 col-md-3">
+						<h4>{translate.footer.header.2}</h4>
+						{translate.footer.content.2}						
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<h4>{translate.footer.header.3}</h4>
+						{translate.footer.content.3}
+{widget.newsletter}
+					</div>				
+				</div>
+			</div>
+			<section id="footer-b">
+    			<a class="footer-logo" href=""><img src="/thm/usr/img/logo-footer.png" alt="Slowwines"/></a>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+            				<ul class="tours-nav">
+                    			{translate.footer.tours}
+               				</ul>
+            			</div>
+					</div>					
+				</div>
+			</section>
+			<section id="footer-c">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="copyright">{translate.general.copyright}</p>
+							<p class="footer-nav">
+								{translate.footer.nav}								
+							</p>
+						</div>					
+					</div>					
+				</div>
+			</section>
+		</footer>
+		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<!--script type="text/javascript" src="/js/usr.search.translate.{variable.language}.js"></script>
+		<script type="text/javascript" src="/mn/?g=cntJS"></script-->
+
+        <script type="text/javascript" src="/js/usr.main.js"></script>
+		<script type="text/javascript" src="/inc/vndr/masterslider/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="/inc/vndr/masterslider/masterslider.min.js"></script>
+		<script type="text/javascript" src="/inc/vndr/owlCarousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="/inc/vndr/megamenu/bootstrap-hover-dropdown.js"></script>
+		<script type="text/javascript" src="/inc/vndr/megamenu/fitdivs.js"></script>
+		<script type="text/javascript" src="/inc/vndr/jQuery/jq.form.js"></script>
+		<script type="text/javascript" src="/inc/vndr/validate/jquery.validate.js"></script>
+		<script type="text/javascript" src="/inc/vndr/multiSelect/js/bootstrap-multiselect.js"></script>
+		<script type="text/javascript" src="/inc/vndr/cookiesDirective/jquery.cookiesdirective.js"></script>
+		<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+		
+		<!-- Google Code for Contactos Web Conversion Page -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var google_conversion_id = 871694250;
+			var google_conversion_language = "en";
+			var google_conversion_format = "3";
+			var google_conversion_color = "ffffff";
+			var google_conversion_label = "_xbECIX97WoQqv_TnwM";
+			var google_remarketing_only = false;
+			/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+			<div style="display:inline;">
+				<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/871694250/?label=_xbECIX97WoQqv_TnwM&amp;guid=ON&amp;script=0"/>
+			</div>
+		</noscript>
+	</body>
+</html>

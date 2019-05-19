@@ -1,0 +1,329 @@
+{variable.breadcrumb}
+				<div class="row">
+					<div class="section-header">
+						<h1><span class="red">{variable.title}</span> ({variable.duration} {translate.general.day})</h1>	
+						<h4>{variable.abstract}</h4>					
+					</div>
+					<div class="col-md-9 col-sm-12">
+						<div class="gallery">
+							<button type="button" class="btn btn-quote-cta" data-toggle="modal" data-target="#myModalQuote">
+								<h2>Get a Quote</h2>
+							</button>
+							<div class="modal fade" id="myModalQuote" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+											<h4 class="modal-title" id="myModalLabel">Get a Quote</h4>
+										</div>
+										<div class="modal-body">
+											<form id="frmQuoteMain" class="form-horizontal contact" role="form">
+												<input type="hidden" name="campaign" value="quote" id="campaign">
+												<input type="hidden" name="language" value="en" id="language">
+												<input type="hidden" name="xref" value="" id="xref">
+												<div class="form-group">
+													<label for="subject" class="col-sm-3 control-label">Tour</label>
+					    							<div class="col-sm-9">
+					      								<input type="text" name="subject" id="subject" class="form-control" placeholder="{variable.duration} {translate.general.day} {variable.title}" value="{variable.duration} {translate.general.day} {variable.title}" readonly="readonly">
+					    							</div>
+												</div>
+												<div class="form-group">
+													<label for="name" class="col-sm-3 control-label">Name</label>
+					    							<div class="col-sm-9">
+					      								<input type="text" name="name" id="name" value="" class="form-control">
+					    							</div>
+												</div>
+												<div class="form-group">
+													<label for="email" class="col-sm-3 control-label">Email</label>
+													<div class="col-sm-9">
+					  									<input type="text" name="email" id="email" value="" class="form-control">
+					    							</div>
+												</div>
+												<div class="form-group">
+													<label for="telephone" class="col-sm-3 control-label">Telephone</label>
+													<div class="col-sm-9">
+					  									<input type="text" name="telephone" id="telephone" value="" class="form-control">
+					    							</div>
+												</div>
+												<div class="form-group">
+													<label for="" class="col-sm-3 control-label">Select dates</label>
+													<div class="col-sm-9">
+													    <div class="input-append date" id="dp3" data-date="31-12-2014" data-date-format="dd-mm-yyyy">
+													    	<div class="row">
+																<div class="col-md-6 col-sm-6 control-label">
+																	Arrival: <input class="form-control" value="" id="dt1" name="dt1" type="text">
+																</div>
+														    	<div class="col-md-6 col-sm-6 control-label">
+																	Departure: <input class="form-control" value="" id="dt2" name="dt2" type="text">
+																</div>
+															</div>
+													    </div>
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="perferredDate" class="col-sm-3 control-label">Preferred Dates</label>
+													<div class="col-sm-9">
+					  									<input type="text" name="perferredDate" id="perferredDate" value="" class="form-control">
+					    							</div>
+												</div>
+												<div class="form-group">
+													<label for="party" class="col-sm-3 control-label">Number of people:</label>
+													<div class="col-sm-8">
+													    <label class="radio-inline">
+													    	<input name="party" id="party" value="1" type="radio"> 1
+													    </label>
+													    <label class="radio-inline">
+													    	<input name="party" id="party" value="2" type="radio"> 2
+													    </label>
+													    <label class="radio-inline">
+													     	<input name="party" id="party" value="3" type="radio"> 3
+													    </label>
+													    <label class="radio-inline">
+													     	<input name="party" id="party" value="4" type="radio"> 4
+													    </label>											
+													    <label class="radio-inline">
+													     	<input name="party" id="party" value="5" type="radio"> 5
+													    </label>											
+													    <label class="radio-inline">
+													     	<input name="party" id="party" value="6" type="radio"> 6
+													    </label>											
+													    <label class="radio-inline">
+													     	<input name="party" id="party" value="6+" type="radio"> 6+
+													    </label>											
+					    							</div>
+												</div>	
+												<div class="form-group">
+													<label for="message" class="col-sm-3 control-label">Message</label>
+													<div class="col-sm-9">
+						  								<textarea name="message" class="form-control" rows="3" ></textarea>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="col-sm-3">
+													</div>
+													<div class="col-sm-9">
+														<button type="submit" class="btn btn-custom btn-lg btn-block">
+															Get a Quote Now
+														</button>
+													</div>
+												</div>
+												<ul class="list-unstyled icon info">
+													<li class="phone">{variable.telephone.1}</li>
+													<li class="email"><a href="mailto:{variable.site.email.address}">{variable.site.email.address}</a></li>
+												</ul>
+												<div class="clearfix"></div>
+											</form>				
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="master-slider ms-skin-default" id="masterslidertour">
+{variable.image}
+							</div>
+						</div>
+
+						<ul class="nav nav-tabs nav-justified">
+							<li class="active"><a class="first" href="#one" data-toggle="tab">Overview</a></li>
+							<li><a href="#two" data-toggle="tab">Itinerary</a></li>
+							<li><a href="#three" data-toggle="tab">Accommodation</a></li>
+							<li><a href="#four" data-toggle="tab">Prices</a></li>
+							<li><a class="last" href="#five" data-toggle="tab">Useful</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="one">
+{variable.body}
+							</div>
+							<div class="tab-pane fade" id="two">
+{variable.itinerary}
+							</div>
+							<div class="tab-pane fade" id="three">
+{variable.accommodation}
+							</div>
+							<div class="tab-pane fade" id="four">
+{variable.price}
+							</div>
+							<div class="tab-pane fade" id="five">
+{variable.useful}
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tour-overview hidden-lg hidden-md hidden-sm">
+							<h3 class="tab-header">Tour at a glance</h3>
+							<div class="bg">
+								<ul class="list-unstyled icon">
+{variable.glance}
+								</ul>
+							</div>							
+						</div>
+						<!--h3>Why we like this wine region</h3>
+{variable.like}-->
+						<div class="panel-group" id="accordion">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="fa-toggle collapsed" >
+											<i class="fa fa-plus-circle fa-fw"></i> 
+				    						<i class="fa fa-minus-circle fa-fw"></i>
+											What to expect on your wine tour
+										</a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul class="list-unstyled">
+{variable.expect}
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="fa-toggle collapsed">
+											<i class="fa fa-plus-circle fa-fw"></i> 
+				    						<i class="fa fa-minus-circle fa-fw"></i>
+											Availability
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="col-md-8 col-sm-12">
+											{variable.availability}
+											<div id="shortCode" style="visibility: hidden; display: none;">{variable.ourID}</div>
+											<div class="calendar-display pull-right">
+												<h3></h3>
+											</div>
+												<div class="btn-group">
+													<button class="btn btn-primary" data-calendar-nav="prev"><<</button>
+													<button class="btn btn-default" data-calendar-nav="today">Today</button>
+													<button class="btn btn-primary" data-calendar-nav="next">>></button>
+												</div>
+											<div id="calendar"></div>
+											
+											<div class="btn-group">
+												<button class="btn btn-warning" data-calendar-view="year">Year</button>
+												<button class="btn btn-warning active" data-calendar-view="month">Month</button>
+												<button class="btn btn-warning" data-calendar-view="week">Week</button>
+											</div>
+											
+											<link rel="stylesheet" href="/inc/vndr/calendar/css/calendar.css">
+											<script type="text/javascript" src="/inc/vndr/calendar/components/underscore/underscore-min.js"></script>
+											<script type="text/javascript" src="/inc/vndr/calendar/components/jstimezonedetect/jstz.min.js"></script>
+											<script type="text/javascript" src="/inc/vndr/calendar/js/calendar.js"></script>
+											<script type="text/javascript" src="/inc/vndr/calendar/js/app.js"></script>
+											<style>
+												#cal-week-box{visibility:hidden;display: none;}
+											</style>
+										</div>
+										<div class="col-md-4 col-sm-12">
+											<form id="frmAvailabilityMain" class="form-horizontal tour-enquiry" role="form">
+												<input type="hidden" name="campaign" value="availability" id="campaign">
+												<input type="hidden" name="language" value="en" id="language">
+												<input type="hidden" name="xref" value="" id="xref">
+												<fieldset>
+													<div class="form-group">
+														<input id="subject" name="subject" placeholder="{variable.duration} {translate.general.day} {variable.title}" value="{variable.duration} {translate.general.day} {variable.title}" class="form-control" readonly='readonly' type="text">
+													</div>
+													<div class="form-group">
+														<input id="name" name="name" placeholder="Name" class="form-control" type="text">
+													</div>
+													<div class="form-group">
+														<input id="email" name="email" placeholder="Email" class="form-control" type="text">
+													</div>
+													<div class="form-group">
+														<input id="telephone" name="telephone" placeholder="Telephone" class="form-control" type="text">
+													</div>													
+													<div class="form-group">
+														<textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+													</div>
+													<div class="form-group">
+														<button type="submit" class="btn btn-custom btn-block">Enquire Now</button>
+													</div>
+												</fieldset>
+											</form>												
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="fa-toggle collapsed">
+											<i class="fa fa-plus-circle fa-fw"></i> 
+				    						<i class="fa fa-minus-circle fa-fw"></i>
+											Your Guide
+										</a>
+									</h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="col-md-4 col-sm-12">
+											<img class="img-responsive" src="{variable.guide.image}" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-12">
+{variable.guide.text}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<section id="testimonial">
+							<h3 class="bg">Client Testimonials</h3>							
+							<div id="carousel-testimonial" class="carousel slide">
+					        	<div class="carousel-navigation pull-right">
+		        			    	<a class="pull-left view-all" href="/{variable.language}/view/testimonial/">View all</a>
+		        			    	<a class="left carousel-control pull-left" href="#carousel-testimonial" data-slide="prev">&lsaquo;</a>
+		        			    	<a class="right carousel-control pull-right" href="#carousel-testimonial" data-slide="next">&rsaquo;</a>
+		        			    </div>
+
+								<div class="carousel-inner">
+{variable.testimonial}
+								</div>
+							</div>
+						</section>
+					</div>
+			
+					<div class="col-md-3 col-sm-12">
+						<div class="btn btn-gold btn-block no-hover">
+							<p class="title">{variable.duration} {translate.general.day} - {variable.title}</p>
+							<p class="btn btn-custom btn-block no-hover">from {variable.fee} pp</p>
+						</div>
+						<div class="tour-overview hidden-xs">
+							<h3 class="tab-header">Tour at a glance</h3>
+							<div class="bg">
+								<ul class="list-unstyled icon">
+{variable.glance}
+								</ul>
+							</div>							
+						</div>
+						<h3 class="tab-header">Places of interest</h3>
+						<div class="bg">
+							<ul class="list-unstyled icon">
+{variable.poi}
+							</ul>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12 col-sm-6">
+								<a class="btn btn-custom btn-block">Ask us for more information</a>
+								<a href="{variable.region.expert}"><h5><i class="fa fa-user"></i>&nbsp;&nbsp;Region Expert</h5></a>
+								<h5><i class="fa fa-calendar"></i>&nbsp;&nbsp; {variable.whenToGo}</h5>
+								<!--a href=""><h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email a Friend</h5></a-->							
+								<div class='share-button'></div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+						<h3 class="tab-header">Related Tours</h3>
+						<div class="bg">
+							<ul class="list-unstyled icon">
+{variable.related}
+							</ul>
+						</div>
+					</div>
+				</div>
+				<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" />
+				<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>

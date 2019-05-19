@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="ie8 no-js" lang="en">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie9 no-js" lang="en">
+<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+	<!--<![endif]-->
+	<head>
+		<title>{variable.company.name} | Administration</title>
+
+		<!--[if IE]>
+			<meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" />
+		<![endif]-->
+
+		<meta charset="utf-8" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		{variable.meta.designer}
+		{variable.meta.application}
+		{variable.meta.generator}
+		{variable.meta.human}
+		
+		<link rel="stylesheet" type="text/css" href="/mn/?g=css">
+		<link rel="stylesheet" type="text/css" href="/thm/adm/assets/css/print.css" media="print"/>
+		
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+
+	<body class="login">
+		<div class="main-login col-sm-4 col-sm-offset-4">
+			<div class="logo">{reword.product.name}</div>
+
+			<div class="box-login">
+				<h3>{reword.usr.login.masthead}</h3>
+				<p>
+					{reword.usr.login.preamble}
+				</p>
+				<form class="form-login" method="post" action="/{variable.language}/adm/login/">
+					<div class="errorHandler alert alert-danger no-display">
+						<i class="fa fa-remove-sign"></i> {login.usr.login.error}
+					</div>
+					<fieldset>
+						<div class="form-group">
+							<span class="input-icon">
+								<input type="text" class="form-control" name="username" placeholder="{reword.usr.login.username}">
+								<i class="fa fa-user"></i> 
+							</span>
+						</div>
+						<div class="form-group form-actions">
+							<span class="input-icon">
+								<input type="password" class="form-control password" name="password" placeholder="{reword.usr.login.password}">
+								<i class="fa fa-lock"></i>
+							</span>
+						</div>
+						<div class="form-actions">
+							<button type="submit" class="btn btn-bricky pull-right">
+								{reword.usr.login} <i class="fa fa-arrow-circle-right"></i>
+							</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<div class="copyright">
+				{variable.year} &copy; {variable.company.name}, All Rights Reserved.
+			</div>
+		</div>
+		
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="/thm/adm/assets/plugins/respond.min.js"></script>
+			<script type="text/javascript" src="/thm/adm/assets/plugins/excanvas.min.js"></script>
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+		
+		<script src="/mn/?g=js"></script>
+		<script src="/thm/adm/assets/js/login.js"></script>
+
+		<script>
+			jQuery( document ).ready( function(){ Main.init(); Login.init(); } );
+		</script>
+	</body>
+</html>

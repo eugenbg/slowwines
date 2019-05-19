@@ -1,0 +1,135 @@
+<link rel="stylesheet" href="/inc/vndr/datepicker/css/bootstrap-datetimepicker.min.css" />
+<div id="frmEnquireMainWrapper">
+	<form  id="frmEnquireMain" name="frmEnquireMain" class="form-horizontal">
+	    <input type="hidden" name="campaign" id="campaign" value="generalenquiry" />
+		<input type='hidden' name='prdct' id='prdct' value='cntnt' />
+		<input type='hidden' name='pid' id='pid' value='' />
+		<input type='hidden' name='prf' id='prf' value='' />
+		<input type="hidden" name="language" id="language" value="en" />
+		<fieldset>
+			<p>We'd like to hear from you. Tell us about your travel queries so we can craft holidays based on your personal requirements. Once we receive the enquiry form below filled by you, we’ll endeavour to get back to you within 24 hours.</p>
+
+			<div class="form-group">
+			  	<label class="col-md-5 control-label" for="subject">Title</label>  
+			  	<div class="col-md-7">
+			  		<input id="subject" name="subject" class="form-control" type="text">
+			  	</div>
+			</div>
+
+			<div class="form-group">
+		  		<label class="col-md-5 control-label" for="firstName">First Name *</label>  
+		  		<div class="col-md-7">
+		  			<input id="firstName" name="firstName" class="form-control" required="" type="text">
+		 		</div>
+			</div>
+
+			<div class="form-group">
+		  		<label class="col-md-5 control-label" for="lastName">Last Name *</label>  
+		  		<div class="col-md-7">
+					<input id="lastName" name="lastName" class="form-control" required="" type="text">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="email">Email *</label>  
+				<div class="col-md-7">
+					<input id="email" name="email" class="form-control" required="" type="text">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="telephone">Telephone</label>  
+				<div class="col-md-7">
+					<input id="telephone" name="telephone" class="form-control" required="" type="text">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="destination">Which wine destinations are you most interested in?</label>
+				<div class="col-md-7">
+					<select id="destination" name="destination[]" class="form-control" multiple="multiple">
+{variable.tour}
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-sm-5 control-label" for="">When would you like to travel?</label>
+				<div class="col-sm-7">
+					<div class='input-group date' id='datetimepicker1'>
+						<input type='text' name='dt1' class="form-control" />
+						<span class="input-group-addon">
+							<span class="glyphicon glyphicon-calendar">
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="">Where would you prefer to fly from?</label>  
+				<div class="col-md-7">
+					<input id="travelFrom" name="travelFrom" class="form-control" type="text">
+				</div>
+			</div>
+
+			<div class="form-group">
+		  		<label class="col-md-5 control-label" for="travellers">Number of Travellers?</label>
+		  		<div class="col-md-7">
+		    		<select id="party" name="party" class="form-control">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+		    		</select>
+		  		</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="">How did you hear about us</label>
+				<div class="col-md-7">
+					<select id="hereAboutUs" name="hereAboutUs" class="form-control">
+						<option value="Relatives and friends">Relatives and friends</option>
+						<option value="Specialized magazines">Specialized magazines</option>
+						<option value="Web search">Web search</option>
+						<option value="Social Media">Social Media</option>
+						<option value="Adwords">Adwords</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="message">Message</label>
+				<div class="col-md-7">                     
+					<textarea class="form-control" id="message" name="message"></textarea>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-md-5 control-label" for="singlebutton"></label>
+				<div class="col-md-7">
+					<button id="singlebutton" name="singlebutton" class="btn btn-custom">Submit</button>
+				</div>
+			</div>
+				<p><h4>Your Privacy</h4></p>	<p class="legal">{translate.form.legal.notice}</p>
+			</fieldset>
+			</form>
+			<p> By clicking “Submit” I agree to Slowwines' <a href="/en/terms-and-conditions/ "target="_blank">Terms of Service</a> and use of my information consistent with Wines and Wild's <a href="/en/privacy-policy/ "target="_blank">Privacy Policy.</a><p>
+			
+</div>
+<script type="text/javascript" src="/inc/vndr/datepicker/js/moment.js"></script>
+<script type="text/javascript" src="/inc/vndr/datepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript">
+	$(function ()
+		{
+			$('#datetimepicker1').datetimepicker();
+		});
+</script>

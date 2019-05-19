@@ -1,0 +1,21 @@
+							<a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
+								<i class="clip-notification-2"></i>
+								<span class="badge"> {variable.notification.number}</span>
+							</a>
+							<ul class="dropdown-menu notifications">
+								<li>
+									<span class="dropdown-menu-title"> {reword.notification.you.have} {variable.notification.number} {reword.notification.notifications}</span>
+								</li>
+								<li>
+									<div class="drop-down-wrapper">
+										<ul>
+{variable.notification}
+										</ul>
+									</div>
+								</li>
+								<li class="view-all">
+									<a href="/{variable.language}/adm/configuration/notification/">
+										{reword.notification.see.all} <i class="fa fa-arrow-circle-o-right"></i>
+									</a>
+								</li>
+							</ul>

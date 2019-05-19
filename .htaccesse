@@ -1,0 +1,119 @@
+#####
+#	Site Rewrite.
+#		"Slow is smooth and smooth is fast" - Sergeant Alvin York from the "Lost Batallion" in World War 1
+#####
+AddDefaultCharset UTF-8
+Options +FollowSymLinks -Indexes
+RewriteEngine on
+
+#	#php_value max_execution_time -1
+
+# 480 weeks
+<IfModule mod_headers.c>
+	<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+		Header set Cache-Control "max-age=290304000, public"
+	</FilesMatch>
+</IfModule>
+
+# 2 DAYS
+<IfModule mod_headers.c>
+	<FilesMatch "\.(xml|txt)$">
+		Header set Cache-Control "max-age=172800, public, must-revalidate"
+	</FilesMatch>
+</IfModule>
+
+# 2 HOURS
+<IfModule mod_headers.c>
+	<FilesMatch "\.(html|htm)$">
+		Header set Cache-Control "max-age=7200, must-revalidate"
+	</FilesMatch>
+</IfModule>
+
+<ifModule mod_gzip.c>
+	mod_gzip_on Yes
+	mod_gzip_dechunk Yes
+	mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+	mod_gzip_item_include handler ^cgi-script$
+	mod_gzip_item_include mime ^text/.*
+	mod_gzip_item_include mime ^application/x-javascript.*
+	mod_gzip_item_exclude mime ^image/.*
+	mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+
+#	Force SSL
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}																						[L,R=301]
+
+#	Send www to the real domain name
+RewriteCond %{HTTP_HOST} ^www\.(.*)$																									[NC]
+RewriteRule ^(.*)$ http://%1/$1																											[R=301,L]
+
+#	Add the tailing slash is necessary.
+RewriteCond %{REQUEST_URI} !(/$|\.) 
+RewriteRule (.*) %{REQUEST_URI}/																										[R=301,L] 
+
+#####
+#	Administration.
+#####
+RewriteRule ^([a-zA-Z]{2})/adm/login/$ 						           				    /jx/login.php									[L]
+RewriteRule ^([a-zA-Z]{2})/adm/logout/$ 					           				    /jx/logout.php									[L]
+
+RewriteRule ^([a-zA-Z]{2})/adm/([a-zA-Z._-]+)/([a-zA-Z._-]+)/([0-9]+)/$  		   	    /adm.php?lng=$1&act=$2&opt=$3&id=$4				[L]
+RewriteRule ^([a-zA-Z]{2})/adm/([a-zA-Z._-]+)/([a-zA-Z._-]+)/$            			    /adm.php?lng=$1&act=$2&opt=$3					[L]
+RewriteRule ^([a-zA-Z]{2})/adm/([a-zA-Z._-]+)/$ 				           			    /adm.php?lng=$1&act=$2							[L]
+RewriteRule ^([a-zA-Z]{2})/adm/$														/adm.php?lng=$1									[L]
+
+#####
+#	AJAX functionality
+#####
+RewriteRule ^jx/language/([a-zA-Z]{2})/$												/jx/chg.language.php?lng=$1						[L]
+RewriteRule ^jx/mail/([a-zA-Z0-9_-]+)/$													/jx/mail.send.php?cmd=$1						[L]
+RewriteRule ^jx/load/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$								/jx/general.loader.php?cmd=$1&arg=$2			[L]
+RewriteRule ^jx/load/([a-zA-Z0-9_-]+)/$													/jx/general.loader.php?cmd=$1					[L]
+RewriteRule ^jx/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$										/jx/$1.$2.php									[L]
+
+#####
+#	Actors
+#####
+RewriteRule ^([a-zA-Z]{2})/lead/([a-zA-Z0-9_-]+)/$										/jb/50.lead.receiver.php?action=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/unsubscribe/([a-zA-Z0-9_-]+)/$								/jb/51.lead.unsubscribe.php?uid=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/verify/([a-zA-Z0-9_-]+)/$									/jb/52.lead.verification.php?uid=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/print/([a-zA-Z]+)/([a-zA-Z0-9_-]+)/$							/jb/55.print.php?id=$3&lt=$2&lng=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/monitor/([a-zA-Z0-9_-]+)/$									/jb/93.monitor.php?type=$2&lng=$1				[L]
+
+#####
+#	Search
+#####
+RewriteRule ^([a-zA-Z]{2})/search/$														/index.php?cmd=search&lng=$1&pg=1				[L]
+RewriteRule ^([a-zA-Z]{2})/search/([a-zA-Z0-9_-]+)/([0-9]+)/$							/index.php?cmd=$2&lng=$1&pg=$3					[L]
+RewriteRule ^([a-zA-Z]{2})/search/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([0-9]+)/$			/index.php?cmd=$2&lng=$1&act=$3&pg=$4			[L]
+RewriteRule ^([a-zA-Z]{2})/search/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$					/index.php?cmd=$2&lng=$1&act=$3					[L]
+
+#####
+#	Listing, including language.
+#####
+RewriteRule ^([a-zA-Z]{2})/show/([a-zA-Z]+)/([a-zA-Z0-9_-]+)/							/index.php?cmd=show&act=$2&lng=$1&id=$3			[L]
+RewriteRule ^([a-zA-Z]{2})/view/([a-zA-Z]+)/											/index.php?cmd=view&act=$2&lng=$1				[L]
+
+#####
+#	Folium
+#####
+RewriteRule ^([a-zA-Z]{2})/folium/display/$												/index.php?cmd=prtfl&lng=$1						[L]
+
+#####
+#	Export feeds
+#####
+RewriteRule ^([a-zA-Z]{2})/rss1/([a-zA-Z]+)/$											/jb/80.feed.rss1.php?type=$2&lng=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/rss2/([a-zA-Z]+)/$											/jb/81.feed.rss2.php?type=$2&lng=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/kyero2/([a-zA-Z]+)/$											/jb/93.feed.kyero2.php?type=$2&lng=$1			[L]
+RewriteRule ^([a-zA-Z]{2})/kyero3/([a-zA-Z]+)/$											/jb/83.feed.kyero3.php?type=$2&lng=$1			[L]
+
+#####
+#	CMS
+#####
+RewriteRule ^([a-zA-Z]{2})/([a-zA-Z0-9_-]+)/$											/index.php?cmd=cms&stub=$2&lng=$1				[L]
+RewriteRule ^([a-zA-Z]{2})/$															/index.php?stub=&lng=$1							[L]
+
+#	If ALL else fails...  DON'T PANIC!
+#ErrorDocument 404																		/index.php?stub=error							[L]
+#ErrorDocument 500																		/index.php?stub=error							[L]

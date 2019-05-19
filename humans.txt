@@ -1,0 +1,31 @@
+/* TEAM */  
+QUANTUM 23
+
+Developer:		Andrew Makin
+Email:			andrew.makin [at] quantum23.com
+Twitter:		@andrew_makin
+Google+:		+AndrewMakin
+LinkedIn:		AndrewJMakin
+Phone:			+34 952 732 443
+From:			Málaga, Espana
+
+Designer/UI:	Alison Makin
+Email:			alison.makin [at] quantum23.com
+Twitter:		@alison_makin
+Google+:		+AlisonMakin
+LinkedIn:		AlisonMakin
+Phone:			+34 952 732 443
+From:			Málaga, Espana
+
+/* SITE */
+Site-name:		slowwines.net
+Create:			April 2015
+Update:			09-May-2015
+Standards:		HTML5, CSS3
+Components:		HMTL, jQuery, JavaScript, PHP5, MySQL5
+Software:		CodeLobster, HeidiSQL, SourceTree, SpringLoops, WinMerge, WAMP
+Description:	Exclusive wine and vineyard tours.
+Language:		English
+Copyright:		Slowwine & Quantum23
+License:		Quantum 23
+Version:		01
