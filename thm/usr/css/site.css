@@ -2185,3 +2185,32 @@ h1, h2, h3, h4 {
 		}
 	}
 }
+
+#agree, .agree {
+	width: 7%;
+	display: inline-block;
+	float: left;
+	line-height: 30px;
+}
+
+#agree-label, .agree-label {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	font-size: 0.8em;
+	width: 80%;
+}
+#agree-error, #contact-agree-error, #agree-enquiry-error {
+	clear: both;
+	color: red;
+	font-size: 0.8em;
+}
+
+#frmContactMain .agree {
+	margin-top: 8px;
+	width: 5%;
+}
+
+#agree-enquiry {
+    width: 1.2em;
+}

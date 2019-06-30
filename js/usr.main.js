@@ -213,13 +213,14 @@ $( document ).ready
 							{
 								rules: 
 								{
-									email: { required:true, email:true }
-									
-								},
+									email: { required:true, email:true },
+                  'agree-enquiry': { required:true }
+                },
 								messages: 
 								{
-									email: ''
-								},
+									email: '',
+                  'agree-enquiry': 'You have to agree to the terms'
+                },
 								errorElement: "div"
 							}
 						);
@@ -307,16 +308,25 @@ $( document ).ready
 								rules: 
 								{
 									name: { required:true },
-									email: { required:true, email:true }
-									
-								},
+									email: { required:true, email:true },
+                  'contact-agree': { required:true }
+
+                },
 								messages: 
 								{
 									name: '',
-									email: ''
-								},
-								errorElement: "div"
-							}
+									email: '',
+                  'contact-agree': 'You have to agree to the terms'
+                },
+								errorElement: "div",
+                errorPlacement: function(error, element) {
+                  if (element.attr("id") === "contact-agree") {
+                    error.insertAfter("#frmContactMain .agree-label");
+                  } else {
+                    error.insertAfter(element);
+                  }
+                }
+              }
 						);
 						
 						console.log( $( '#frmContactMain' ).valid() );

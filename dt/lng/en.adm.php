@@ -18,7 +18,7 @@ $aTranslation[ "general.day.tour" ]						= "Day Tour";
 $aTranslation[ "general.escorted" ]						= "Escorted";
 $aTranslation[ "general.day" ]							= "days";
 $aTranslation[ "general.month" ]						= "month";
-$aTranslation[ "general.copyright" ]					= "{variable.date} &copy; {variable.trading.name}.  All rights reserved.</br>Slowwines is a registered and fully Bonded Tour Operator - Licence Number CICCL.37-102.";
+$aTranslation[ "general.copyright" ]					= "{variable.date} &copy; {variable.trading.name}.  All rights reserved.</br>Slowwines is a registered trademark operated by Viajes Nieto a fully Bonded Tour Operator - Licence Number CICCL.37-102.";
 
 //	Access Control list
 $aTranslation[ 'acl.administrator' ]					= 'Administrator';
