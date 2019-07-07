@@ -172,7 +172,7 @@ $( document ).ready
 		$.cookiesDirective
 		(
 			{
-				privacyPolicyUri: '/' + sLng + '/privacy/',
+				privacyPolicyUri: '/' + sLng + '/privacy-policy/',
 				explicitConsent: false,
 				position : 'bottom',
 				scriptWrapper: cookieController, 

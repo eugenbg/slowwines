@@ -77,8 +77,8 @@ $aTranslation[ 'footer.nav' ]							= '<a href="/">Home</a> &middot;
 															<a href="/{variable.language}/terms-and-conditions/">Terms & Conditions</a>  &middot; 
 															<a href="/{variable.language}/our-services/">About SW</a>
 														';
-$aTranslation[ 'link.privacy' ] = '<a href="/{variable.language}/privacy-policy/">Privacy Policy</a>';
-$aTranslation[ 'link.terms' ] = '<a href="/{variable.language}/terms-and-conditions/">Terms Of Service</a>';
+$aTranslation[ 'link.privacy' ] = '<a target="_blank" href="/{variable.language}/privacy-policy/">Privacy Policy</a>';
+$aTranslation[ 'link.terms' ] = '<a target="_blank" href="/{variable.language}/terms-and-conditions/">Terms Of Service</a>';
 //	Contact
 $aTranslation[ 'contact.campaign.name' ]				= 'Campaign Name';
 $aTranslation[ 'contact.detail' ]						= 'Contact Details';
